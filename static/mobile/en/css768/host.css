@@ -1,0 +1,52 @@
+@media screen and  (max-width: 769px){
+    .ios_proSup .android_list ul li span p {
+        font-size: 16px;
+        color: #282828;
+        font-family: MicrosoftYaHei-Bold;
+    }
+    h3.sv_paragraph>span,
+    .host_youshi h3 span {
+        color: #FFF;
+    }
+
+    .host_youshi h3 span:after {
+        background: #FFF;
+    }
+    .ceshi_youshi .sv_paragraph > h3,
+    h3.sv_paragraph,
+    .host_youshi h3,
+    .jiejuefangan h3{
+        padding-top: 19px!important;
+        padding-bottom: 19px;
+    }
+    .host_youshi>div {
+        width: 100%;
+        height: auto;
+    }
+    .host_ys {
+        width: 100%;
+        height: auto;
+        left: 0;
+        margin-top: 202px;
+        box-sizing: border-box;
+    }
+    .host_ys ul li {
+        padding-bottom: 20px;
+    }
+    .host_youshi {
+        background-size: 100% 100%;
+        height: auto;
+        background-image: url("../images/host_bj_768.jpg");
+    }
+    .host_youshi .android_proSup>div:last-child {
+        display: block;
+    }
+    .host_yoush .ios_proSup ul li img {
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+    }
+    #header {
+        background-image: url("../images/hostbanner_768.jpg");
+    }
+}

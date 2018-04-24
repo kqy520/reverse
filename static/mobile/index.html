@@ -1,0 +1,655 @@
+<!doctype html>
+<html>
+<head>
+    <script>(window.localStorage.setItem('I18N-UI-LANG', 'zh-CN'), typeof navigator !='undefined' && !(/(Android|iPhone|Windows Phone|UC|Kindle)/.test(navigator.userAgent)) && (window.location.href = '/'));</script>
+    <meta name="baidu-site-verification" content="n7SzuB5zgi" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no,scroll=no"/>
+	<meta charset="utf-8">
+	<title>【Testin安全】- 您身边的安全专家</title>
+	<meta name="keywords" content="Testin,Testin安全,云测安全,安全检测,安全监测,安全扫描,iOS安全扫描,安全渗透,应用风险,应用安全,Android应用安全,iOS应用安全,安卓加固,iOS应用加固,Android应用加固,应用加固,IPA加固,APP加固,应用加密,APP加密,APP保护,APP防破解,APP反编译,防止反编译,钓鱼监测,渠道监控,盗版监测,源代码安全,源代码审计,安全咨询" />
+	<meta name="description" content="Testin安全致力于为企业提供一站式安全服务，秉承让企业更安全的服务理念，为企业提供全面的安全解决方案和7x24小时全天候的专业服务。业务包含安全渗透测试、源代码安全审计、移动应用安全加固、主机安全防护、安全咨询等内容。客户遍及金融、政企、互联网、运营商、IOT、游戏等行业。" />
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/public.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/newGw.css">
+
+	<link rel="stylesheet" type="text/css" href="css768/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css768/index.css">
+	<link rel="stylesheet" type="text/css" href="css768/style.css">
+
+    <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+<!--导航-->
+    <script type="text/javascript" src="js/newgw.js"></script>
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/organictabs.jquery.js"></script>
+<script type="text/javascript">
+$(function() {
+	// 调用插件
+	$("#tab").organicTabs({
+		"speed": 100,
+	});
+});
+</script>
+<style>
+.wrapper{ width:100%;margin: 0 auto;}
+.cols{ display: -webkit-box;display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap;  flex-wrap: wrap; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; width:1200px; margin:0 auto;}
+.col{width:19.5%;height:455px;}
+.container{ -webkit-transform-style: preserve-3d; transform-style: preserve-3d;}
+.front,.back{width:242px;text-align: center;height:455px;border-radius: 10px;color: #fff;font-size: 1.5rem;}
+.back{background:url(images/in_h1.png) no-repeat; width:20%;}
+.front:after{position: absolute; top: 0; left: 0; z-index: 1; width: 100%;height: 100%; content: ''; display: block; -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;}
+.back{ position: absolute; top: 0; left: 0; width:242px;
+}
+.inner{
+    top: 5%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    outline: 1px solid transparent;
+    -webkit-perspective: inherit;
+            perspective: inherit;
+    z-index: 2;
+}
+.inner i img{margin:0 auto; width:60px; margin-bottom:-30px;}
+.inner span{ text-align:center; font-size:20px; font-weight:bold; color:#000; width:180px; display:block;}
+.inner p{  font-size:16px; text-align:justify; margin:0 auto; line-height:28px;
+  margin-bottom: 2rem;
+  position: relative;
+  color:#000;}
+.container .back{
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+}
+
+.container .front{
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+}
+
+.container:hover .back{
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.container:hover .front{
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.front .inner p{
+
+}
+
+.front .inner p:after{
+  content: '';
+  width: 4rem;
+  height: 2px;
+  position: absolute;
+  background: #C6D4DF;
+  display: block;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: -.75rem;
+}
+.front .inner span{
+  color: rgba(255,255,255,0.7);
+  font-family: 'Montserrat';
+  font-weight: 300;
+}
+@media screen and (max-width: 64rem){
+  .col{
+    width: calc(33.333333% - 2rem);
+  }
+}
+@media screen and (max-width: 48rem){
+  .col{
+    width: calc(50% - 2rem);
+  }
+}
+@media screen and (max-width: 32rem){
+  .col{
+    width: 100%;
+    margin: 0 0 2rem 0;
+  }
+}
+</style>
+</head>
+<body>
+<!--head begin-->
+<div id="index_header">
+	<div class="index_header_box">
+		<div class="header_box">
+	         <div style="width: 1200px;margin:0px auto;">
+				<div class="header_box_right fl">
+					<a class="header_icron" href="index.html"><img src="images/logo.png" /></a>
+				</div>
+
+				<div class="header_box_left fl">
+					<ul class="header_nav">
+						<li><a href="/">首页<b></b></a></li>
+						<li class="header_box1">
+							<a href="javascript:;">产品&amp;服务<b></b></a>
+							<div class="navs_box_bg1 nav_box_wrap" style="display:none;">
+								<div class="navs_box1 clearfix">
+									<div class="navs_box_left">
+										<ul>
+											<li data-for="nav_aq" class="active"><a>安全检测</a><i></i></li>
+											<li data-for="nav_hg"><a>安全防护</a><i></i></li>
+											<li data-for="nav_gl"><a>安全咨询</a><i></i></li>
+										</ul>
+									</div>
+									<div class="navs_box_middle">
+										<div id="nav_aq">
+											<div class="navs_box_list">
+												<div class="navs_box_item">
+													<a href="">
+														<p class="navs_box_title">
+															<span class="navs_box_style">安全渗透测试</span>
+														</p>
+													</a>
+												</div>
+												<div class="navs_box_item">
+													<a href="">
+														<p class="navs_box_title">
+															<span class="navs_box_style">源代码安全审计</span>
+														</p>
+													</a>
+												</div>
+												<div class="navs_box_item">
+													<a href="">
+														<p class="navs_box_title">
+															<span class="navs_box_style">应用安全扫描</span>
+														</p>
+													</a>
+												</div>
+												<div class="navs_box_item">
+													<a href="">
+														<p class="navs_box_title">
+															<span class="navs_box_style">商用密码应用安全性评估</span>
+														</p>
+													</a>
+												</div>
+											</div>
+										</div>
+										<div id="nav_hg" style="display:none;">
+											<div class="navs_box_list">
+												<div class="navs_box_item">
+													 <a href="">
+														<p class="navs_box_title">
+															<span class="navs_box_style">移动应用安全加固</span>
+														</p>
+													</a>
+												</div>
+												<div class="navs_box_item">
+													 <a href="">
+														<p class="navs_box_title">
+															<span class="navs_box_style">主机安全防护</span>
+														</p>
+													 </a>
+												</div>
+											</div>
+										</div>
+
+										<div id="nav_gl" style="display:none;">
+											<div class="navs_box_list">
+												<div class="navs_box_item">
+													 <a href="">
+														<p class="navs_box_title">
+															<span class="navs_box_style">安全咨询</span>
+														</p>
+													 </a>
+												</div>
+											</div>
+										</div>
+										<div id="nav_fwd" style="display:none;">
+											<div class="navs_box_list">
+												<div class="navs_box_item">
+
+												</div>
+												<div class="navs_box_item">
+
+												</div>
+												<div class="navs_box_item">
+
+												</div>
+											</div>
+										</div>
+										<div id="nav_dlp" style="display:none;">
+											<div class="navs_box_list">
+												<div class="navs_box_item">
+
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="navs_box_right">
+										<a>
+											<img src="images/boxright_ct.png">
+										</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="javascript:;">解决方案<b></b></a>
+						</li>
+						<li><a href="/About" >关于我们<b></b></a></li>
+					</ul>
+				</div>
+				<div class="header_oper-wrap fr">
+					<a class="regist" href="/treg"><i></i>注册</a>
+					<a class="login" href="/tlogin">登录</a>
+					<a class="header_language" href="/enindex">English</a>
+				</div>
+				<div class="header_collapse">
+					 <a class="try_btn" href="/web/account/login">立即试用</a>
+					 <span class="fa fa-bars" id="tabbar"></span>
+				</div>
+				 <ul id="tabbarList">
+					 <li><a href="index.html">首页</a></li>
+					 <li id="productAndService"><span class="canShow fa fa-angle-up"></span>产品&amp;服务
+						 <ul>
+							 <li class="showChildList"><span class="canShow fa fa-angle-up"></span>安全检测
+								 <ul>
+									 <li><a href="pentest.html">安全渗透测试</a></li>
+									 <li><a href="audit.html">源代码安全审计</a></li>
+									 <li><a href="scan.html">应用安全扫描</a></li>
+									 <li><a href="cipher.html">商用密码应用安全性评估</a></li>
+								 </ul>
+							 </li>
+							 <li class="showChildList"><span class="canShow fa fa-angle-up"></span>安全防护
+								 <ul>
+									 <li><a href="reinforce.html">移动应用安全加固</a></li>
+									 <li><a href="host.html">主机安全防护</a></li>
+								 </ul>
+							 </li>
+							 <li class="showChildList"><span class="canShow fa fa-angle-up"></span>安全咨询
+								 <ul>
+									 <li><a href="advisory.html">安全咨询</a></li>
+								 </ul>
+							 </li>
+						 </ul>
+					 </li>
+					 <li><a href="solution.html">解决方案</a></li>
+					 <li><a href="about.html">关于我们</a></li>
+				 </ul>
+			</div>
+        </div>
+	</div>
+	<div class="topBanner">
+	</div>
+	<div class="topContainers">
+		<div class="topB_d">
+			<div class="top_right_bgd">
+				<div class="topcanvas">
+					<canvas id="canvas" width="176" height="450"></canvas>
+					<div class="bannerImage">
+						<div class="bannerRadius1"></div>
+
+						<div class="bannerShadow"></div>
+						<div class="bannerLogo"></div>
+						<div class="bannerRotate1"></div>
+					</div>
+				</div>
+			</div>
+			<div class="bannerText">
+				<p class="bannerText_title1 fadeInUp">
+                    <img src="images/banner-top.png" />
+					<span class="largeTitle"><span class="large">Testin安全</span><br><span class="small">您身边的安全专家</span></span>
+					<span class="smallTitle">提供全面的安全解决方案 为您的企业安全保驾护航</span>
+                </p>
+				<div class="bannerText_btn" >
+					<a class="bannerText_bt1" href="" target="_blank"><i></i>免费体验</a>
+					<a class="bannerText_bt2" href="" target="_blank"><i></i>立即咨询</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--head over-->
+<!--head-bottom begin-->
+<div id="index_safe">
+	<div class="topBottom">
+		<div class="topBottom_ct">
+			<a class="toB_item" href="pentest.html">
+				<div class="toB_item_sec">
+					<p>安全渗透测试</p>
+				</div>
+                <div class="toB_item_icon toB_item_icon1"></div>
+			</a>
+			<a class="toB_item" href="scan.html">
+				<div class="toB_item_sec">
+					<p>应用安全扫描</p>
+				</div>
+                <div class="toB_item_icon toB_item_icon2"></div>
+			</a>
+			<a class="toB_item" href="reinforce.html">
+				<div class="toB_item_sec">
+					<p>移动应用安全加固</p>
+				</div>
+                <div class="toB_item_icon toB_item_icon3"></div>
+			</a>
+            <a class="toB_item" href="">
+				<div class="toB_item_sec">
+					<p>更多测试</p>
+				</div>
+                <div class="toB_item_icon toB_item_icon4 bian"></div>
+			</a>
+		</div>
+	</div>
+</div>
+<!--head-bottom over-->
+<!--核心服务 begin-->
+<div id="index_mid1">
+	<div class="index_section_title">
+       <img src="images/index_title1.jpg" />
+		<span class="spe_title">核心服务</span>
+    </div>
+     <div id="tab">
+		<div class="tabList">
+               <ul>
+                <li class="tabList-one"><a href="#featured2" class="current">安全检测</a></li>
+                <li class="tabList-two"><a href="#core2">安全防护</a></li>
+                <li class="tabList-three"><a href="#jquerytuts2">安全监测</a></li>
+                <li class="tabList-four  last"><a href="#classics2">安全咨询</a></li>
+              </ul>
+         </div>
+		<div class="tabCon  clearfix">
+			<ul id="featured2" class="index_mid1 clearfix"  style="text-align:center;">
+                  <li class="index_top10_item">
+                       <i class="top10Icon1"></i>
+					   <div><a href="pentest.html">
+                       		<h4>安全渗透测试</h4>
+                       		<h6>覆盖Android、iOS、Web、H5等多种应用<br>深度挖掘应用风险<br>专业、可行的整改建议<br>严格保护用户隐私</h6>
+                        </a></div>
+                  </li>
+                  <li class="index_top10_item">
+                       <i class="top10Icon2"></i>
+					   <div><a href="scan.html">
+						   <h4>应用安全扫描</h4>
+						   <h6>全自动安全检测方式<br> 独家iOS应用安全扫描产品<br>精准定位漏洞及风险<br>专业安全解决方案</h6>
+              </a></div>
+                  </li>
+                  <li class="index_top10_item">
+                       <i class="top10Icon3"></i>
+					  <div><a href="audit.html">
+						   <h4>源代码安全审计</h4>
+						   <h6>挖掘代码层安全隐患<br>自动化+人工专业审计方式<br>全面检测漏洞及风险<br>指导漏洞修复</h6>
+              </a></div>
+                  </li>
+                  <li class="index_top10_item" style="margin-right:0;">
+                       <i class="top10Icon4"></i>
+					  <div><a href="cipher.html">
+						   <h4>商用密码应用安全性评估</h4>
+						   <h6>测评密码使用的有效性和规范性<br>满足系统的密码使用规定<br>国产商用密码的使用指导</h6>
+              </a></div>
+                  </li>
+			  </ul>
+             <ul  id="core2" class="index_mid1 clearfix hide" style="text-align:center;">
+                  <li class="index_top10_item">
+                       <i class="top10Icon5"></i>
+					   <div><a href="reinforce.html">
+                       		<h4>移动应用安全加固</h4>
+                       		<h6>覆盖Android、iOS双平台<br>首创IPA加固方式<br>定制化加固策略<br>加固后兼容性保证</h6>
+                        </a></div>
+                  </li>
+                  <li class="index_top10_item" style="margin-right:0;">
+                       <i class="top10Icon6"></i>
+					   <div><a href="host.html">
+						   <h4>主机安全防护</h4>
+                       	   <h6>轻量级主机安全防护产品<br>人工智能机器学习算法<br>动静结合的防护措施<br>威胁情报感知</h6>
+                          </a></div>
+                  </li>
+			</ul>
+
+            <ul  id="jquerytuts2" class="index_mid1 clearfix hide" style="text-align:center;">
+				<li class="index_top10_item">
+                       <i class="top10Icon8"></i>
+					   <div>
+                       		<h4>钓鱼监测及响应</h4>
+                       		<h6>渠道监测及管理<br>钓鱼及盗版识别<br>风险分析及报告<br>预警及侵权下架</h6>
+					   </div>
+                 </li>
+			</ul>
+            <ul  id="classics2" class="index_mid1 clearfix hide" style="text-align:center;">
+				<li class="index_top10_item">
+                       <i class="top10Icon7"></i>
+						<div><a href="advisory.html">
+						   <h4>安全咨询</h4>
+						   <h6>网络安全法解读<br>企业业务合规性咨询<br>安全开发规范咨询<br>等级保护测评咨询<br>信息安全体系建设咨询</h6>
+              </a></div>
+                </li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!--核心服务 over-->
+<!--我们的优势 begin-->
+<div id="index_solve">
+    <div class="index_section_title">
+       <img src="images/index_title2.jpg" />
+		<span class="spe_title">我们的优势</span>
+    </div>
+    <div class="index_sub_title">领域有影响力的安全专家采用行业领先的安全技术，提供专业、快速、全面的安全服务</div>
+	<div class="index_sub_title_768">领域有影响力的安全专家采用行业领先的安全技术<br>提供专业、快速、全面的安全服务</div>
+<div class="index_solve">
+	<div class="index_solve_min">
+		<ul class="index_solve_ul">
+			<li>
+				<a class="index_solve1">
+				    <div class="index_solve_content">
+						<div class="index_solve_mask">
+
+                        </div>
+						<div class="index_solve_hover">
+							<i class="solve1_icon"></i>
+							<h5>领先的安全技术</h5>
+							<p>专业的研发团队研制行业顶级安全服务技术<br>国内首家基于IPA的安全加固技术<br>针对不同行业的独家检测技术</p>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a class="index_solve2">
+					<div class="index_solve_content">
+						<div class="index_solve_mask"></div>
+						<div class="index_solve_hover">
+							<i class="solve2_icon"></i>
+							<h5>完整的测试生态</h5>
+							<p>提供全面的安全解决方案<br>提供包括兼容等一站式测试服务<br>满足企业各种定制化测试需求</p>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a class="index_solve3">
+					<div class="index_solve_content">
+						<div class="index_solve_mask"></div>
+						<div class="index_solve_hover">
+							<i class="solve3_icon"></i>
+							<h5>充分的市场验证</h5>
+							<p>服务超过80万开发者<br>为230万个应用进行了超过1.8亿次测试<br>挖掘超过6000万个严重缺陷</p>
+						</div>
+					</div>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+</div>
+<!--我们的优势 over-->
+<!--解决行业方案 begin-->
+<div id="index_scheme">
+		<div class="index_section_title">
+            <img src="images/index_title3.jpg" />
+			<span class="spe_title">解决行业方案</span>
+        </div>
+        <div class="wrapper">
+            <div id="cols" class="cols">
+				<div class="col" ontouchstart="this.classList.toggle('hover');">
+					<div class="container">
+						<div class="front" style="background-image: url(images/in_h01.png);">
+						</div>
+						<div class="back">
+							<div class="inner">
+							  <i><img src="images/index_i1.png" /></i>
+							  <span>互联网</span>
+							  <p>互联网行业涉及领域多，应用迭代频率高、使用频率广。针对每个不同的领域的安全需求以及业务场景，细分解决方案，解决企业在支付、验证、敏感信息记录等环节的安全问题。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col" ontouchstart="this.classList.toggle('hover');">
+					<div class="container">
+						<div class="front" style="background-image:url(images/in_h02.png);">
+						</div>
+						<div class="back">
+							<div class="inner">
+								<i><img src="images/index_i2.png" /></i>
+								<span>金融</span>
+								<p>金融行业随着互联网的快速发展不断将业务线上化，出现了类似交易劫持、数据泄露等威胁企业根本的安全风险。针对金融行业涉及的安全隐患，提供覆盖产品研发整个生命周期的安全解决方案。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col" ontouchstart="this.classList.toggle('hover');">
+					<div class="container">
+						<div class="front" style="background-image: url(images/in_h03.png);">
+						</div>
+						<div class="back">
+							<div class="inner">
+								<i><img src="images/index_i3.png" /></i>
+								<span>运营商</span>
+								<p>运营商行业数据流量大、用户量大、稳定性要求高；移动应用及其通讯数据的安全风险必须受到重视。针对运营商的安全解决方案可以有效保护移动计费、通讯数据、网络环境的安全。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col" ontouchstart="this.classList.toggle('hover');">
+					<div class="container">
+						<div class="front" style="background-image: url(images/in_h04.png);">
+						</div>
+						<div class="back">
+							<div class="inner">
+								<i><img src="images/index_i4.png" /></i>
+								<span>政企</span>
+								<p>政企行业的数据安全性需求高，并且必须满足移动化建设中的规范性和安全性。针对应用生态系统的安全问题，提供检测、防护和咨询服务，提高安全意识，风险管理水平，建设符合标准的安全规范。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col" ontouchstart="this.classList.toggle('hover');">
+				<div class="container">
+					<div class="front" style="background-image: url(images/in_h05.png);">
+					</div>
+					<div class="back">
+						<div class="inner">
+                            <i><img src="images/index_i5.png" /></i>
+                            <span>IoT</span>
+							<p>物联网行业涉及到生活的方方面面，安全风险同样渗透到每个角落；基于用户场景，提供针对端、管、云的完整安全解决方案，对企业及其用户安全进行全局防护。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+  			</div>
+         </div>
+</div>
+<!--解决行业方案 over-->
+<!--客户案例 begin-->
+<div id="index_cooper">
+		<div class="index_section_title">
+            <img src="images/index_title4.jpg" />
+			<span class="spe_title">客户案例</span>
+        </div>
+	<div class="index_cooper clearfix">
+
+		<ul class="index_cooper_wrap item clearfix">
+			<li><img src="images/index_cooper_img1.png" /></li>
+			<li><img src="images/index_cooper_img2.png" /></li>
+			<li><img src="images/index_cooper_img3.png" /></li>
+			<li><img src="images/index_cooper_img4.png" /></li>
+			<li><img src="images/index_cooper_img5.png" /></li>
+		</ul>
+		<ul class="index_cooper_wrap item clearfix">
+			<li><img src="images/index_cooper_img6.png" /></li>
+			<li><img src="images/index_cooper_img7.png" /></li>
+			<li><img src="images/index_cooper_img8.png" /></li>
+			<li><img src="images/index_cooper_img9.png" /></li>
+			<li><img src="images/index_cooper_img10.png" /></li>
+		</ul>
+        <ul class="index_cooper_wrap item clearfix">
+			<li><img src="images/index_cooper_img11.png" /></li>
+			<li><img src="images/index_cooper_img12.png" /></li>
+			<li><img src="images/index_cooper_img13.png" /></li>
+			<li><img src="images/index_cooper_img14.png" /></li>
+			<li><img src="images/index_cooper_img15.png" /></li>
+		</ul>
+	</div>
+</div>
+<!--客户案例 over-->
+<!--即刻开启企业级云测试新时代-->
+<div class="starting">
+            <canvas id="waves" class="waves" width="1663" height="212" style="width: 1663px; height: 212px;"></canvas>
+            <div class="starting-content starting-content-en">
+                <h2>注册免费体验应用安全扫描</h2>
+                <a target="_blank" href="/web/account/register" class="register-a animBtn themeC">免费注册</a>
+            </div>
+</div>
+<!--即刻开启企业级云测试新时代 EN-->
+<footer>
+    <div class="footer-content clearfix">
+        <div class="footer-l">
+            北京云聚信安科技有限公司 © 2011-2018
+京ICP证150088号
+        </div>
+        <div class="footer-r">
+            <p class="p2"><i class="iconfont"><img src="images/tel.png"></i>400-990-5577</p>
+            <p class="links">
+                <a href="https://www.testin.cn/business/about.htm">关于我们</a>
+                <a target="_blank" href="https://www.testin.cn/business/feedback.htm">问题反馈</a>
+                <a href="/business/partner.htm">合作伙伴</a>
+            </p>
+            <select class="selectpicker" onchange="change();">
+                <option selected>简体中文-Chinese</option>
+                <option>英文-English</option>
+            </select>
+        </div>
+    </div>
+	<div class="footer-content-768 clearfix">
+		<div class="footer-r">
+			<p class="beforeSaleTitle">售前咨询</p>
+			<p class="p2">400-990-5577</p>
+		</div>
+		<div class="footer-l">
+			北京云聚信安科技有限公司 © 2011-2018 京ICP证150088号
+		</div>
+	</div>
+</footer>
+
+
+<script src="js/testin_1200.js" type="text/javascript"></script>
+<!--xian-->
+<!--<script type="text/javascript" src="js/jquery.min.js"></script>-->
+<script src="js/sine-waves.min.js"></script>
+<script src="js/other.js"></script>
+<script src="js/tabbarCollapse.js"></script>
+<script src="js/site.js"></script>
+<script>
+	tabbarCollapse.init();
+</script>
+</body>
+</html>

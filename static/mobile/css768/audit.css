@@ -1,0 +1,110 @@
+@media screen and (max-width: 769px){
+    .verilog_header {
+        background: url("../images/verilog_ban_768.jpg") no-repeat center;
+    }
+    .ios_proSup .android_list ul li span p {
+        font-size: 16px;
+        font-family: MicrosoftYaHei-Bold;
+        color: #282828;
+    }
+    .sv_paragraph {
+        overflow: visible;
+    }
+    #move_nav_2 {
+        margin-top: 164px;
+    }
+    h3.sv_paragraph>span,
+    .verilog_jiazhi h3 span {
+        color: #FFF;
+    }
+    h3.sv_paragraph>span:after,
+    .verilog_jiazhi h3 span:after {
+        background: #FFF;
+    }
+    .ceshi_youshi .sv_paragraph > h3,
+    h3.sv_paragraph,
+    .verilog_jiazhi h3{
+        padding-top: 19px!important;
+        padding-bottom: 19px;
+    }
+    .verilog_fuwu .duix {
+        float: none;
+        padding-top: 33px!important;
+    }
+    .verilog_fuwu .duix img {
+        width: 100%;
+    }
+    .verilog_fuwu {
+        height: auto;
+        padding-bottom: 55px;
+        background-image: url("../images/verilog_bj1_768.jpg");
+    }
+    .verilog_fuwu>div {
+        height: auto;
+    }
+    .verilog_tese>div {
+        width: 100%;
+        height: auto;
+    }
+    .verilog_tese>div ul li {
+        width: 100%;
+        height: auto;
+    }
+    .verilog_tese>div ul li {
+        background: #FFF;
+    }
+    .verilog_tese>div ul li i img {
+        width: 74px;
+        height: 74px;
+        padding-top: 22px;
+    }
+    .verilog_tese>div ul li span {
+        font-size: 16px;
+        font-family: MicrosoftYaHei-Bold;
+        color: #282828;
+        margin-top: 0;
+        margin-bottom: 5px;
+        line-height: 52px;
+    }
+    .verilog_tese>div ul li p {
+        width: 100%;
+        margin: 0;
+        padding: 0 27px;
+        box-sizing: border-box;
+        font-size: 11px;
+        color: #282828;
+    }
+    .verilog_tese>div ul {
+        margin-bottom: 27px;
+    }
+    .verilog_jiazhi {
+        height: auto;
+        background-image: url("../images/verilog_bj2_768.jpg");
+        background-size: 100% 100%;
+    }
+    .verilog_jiazhi>div {
+        width: 100%;
+        height: auto;
+    }
+    .verilog_jiazhi>div ul li {
+        width: 100%;
+        height: auto;
+        border: none;
+    }
+    .verilog_jiazhi>div ul li span {
+        margin: 0;
+        font-size: 16px;
+        font-family: MicrosoftYaHei-Bold;
+        line-height: 16px;
+        margin-bottom: 17px;
+    }
+    .verilog_jiazhi>div ul li p {
+        width: 100%;
+        margin: 0;
+        padding: 0 26px;
+        box-sizing: border-box;
+        font-size: 11px;
+        font-family: MicrosoftYaHei;
+        margin-bottom: 38px;
+    }
+}

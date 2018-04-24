@@ -1,0 +1,87 @@
+@media screen and (max-width: 769px){
+    .ios_proSup .android_list ul li span p {
+        font-size: 16px;
+        font-family: MicrosoftYaHei-Bold;
+    }
+    .android_proSup>div:last-child {
+        display: block;
+    }
+    .sv_paragraph {
+        overflow: visible;
+    }
+    #move_nav_2 {
+        margin-top: 280px;
+    }
+    .android_proSup>div#showImg img {
+        width: 50%;
+    }
+    .android_proSup>div#showImg {
+        text-align: center;
+        bottom: -283px;
+    }
+    .dianliang {
+        height: auto;
+        background-size: 100% 100%;
+    }
+    .dianliang>div {
+        height: auto;
+        width: 100%;
+    }
+    .dianliang>div ul li {
+        height: auto;
+        width: 100%;
+        padding: 0 25px;
+        box-sizing: border-box;
+    }
+    .dianliang>div ul li i img {
+        padding-top: 34px;
+    }
+    .dianliang>div ul li p {
+        width: 100%;
+        margin: 32px 0 0 0;
+        font-size: 12px;
+        font-family: MicrosoftYaHei;
+    }
+    .dianliang>div ul li:last-child p {
+        padding-bottom: 39px;
+    }
+    .move_fuwu {
+        width: 100%;
+        height: auto;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    .move_fuwu ul {
+        width: 100%;
+    }
+    .esdk_theory .move_fuwu ul li {
+        width: 100%;
+        margin-bottom: 17px;
+        height: 100%;
+        padding-bottom: 15px;
+        background-position: -30px -20px;
+    }
+    .move_fuwu ul li i img {
+        padding-top: 100px;
+        width: 90px;
+        height: 90px;
+    }
+    .move_fuwu ul li h3 {
+        padding-top: 44px;
+        font-size: 16px;
+        font-family: MicrosoftYaHei;
+        color: #282828;
+        text-align: center;
+        width: 100%;
+    }
+    .move_fuwu ul li p {
+        font-size: 12px;
+        font-family: MicrosoftYaHei;
+        color: #282828;
+        text-align: left;
+        width: 85%;
+    }
+    .ios_header {
+        background-image: url("../images/movebanner_768.jpg");
+    }
+}

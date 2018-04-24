@@ -1,0 +1,292 @@
+@media screen and (max-width: 769px) {
+    .foot1 {
+        display: none;
+    }
+    footer {
+        height: auto!important;
+    }
+    #header {
+        background-image: url("../images/about_ban_768.jpg");
+    }
+    #header_tips>div {
+        padding-top: 121px;
+        /*display: none;*/
+    }
+    #header_tips .banner-main .p1 {
+        font-size: 24px;
+    }
+    #header_tips .banner-main .p1:before,
+    #header_tips .banner-main .p1:after {
+        /*width: 101px;*/
+        width: 25%;
+    }
+    #header_tips>div {
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 0;
+        position: static;
+    }
+    #header_tips .banner-main .p2 {
+        display: none;
+    }
+    #header_tips .banner-main .p3 {
+        font-size: 11px;
+        margin-top: 20px;
+        color: #FFF;
+        display: block;
+    }
+    .about_cent .page-content {
+        margin-top: 0!important;
+    }
+    .page-content .nav-tabs-out {
+        height: 59px;
+        padding: 0 34.5px;
+        box-sizing: border-box;
+    }
+    .page-content .nav-tabs-out .nav-tabs {
+        width: 100%;
+        font-size: 16px;
+        height: 59px;
+    }
+    .page-content .nav-tabs-out .nav-tabs>li {
+        height: 100%;
+        width: 50%;
+        text-align: center;
+        line-height: 85px;
+        font-size: 16px;
+    }
+    .page-content .nav-tabs-out .nav-tabs .active {
+        height: 100%;
+        color: #000;
+        background-size: 63px 2px;
+    }
+
+    .about_cent .page-content .about1 h2 img,
+    .globalization .globalization-main h2 img,
+    .about_cent .page-content .about3 h2 img{
+        display: none;
+    }
+    .spe_title {
+        display: inline-block;
+        height: 26px;
+        line-height: 30px;
+        font-size: 16px;
+
+    }
+    .spe_title:after {
+        content: "";
+        display: block;
+        height: 2px;
+        background: url("../images/guanyu-07.png") no-repeat bottom center;
+        background-size: 63px 2px;
+    }
+    .about_cent .page-content .about1 h2,
+    .about_cent .page-content .about3 h2{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 26px;
+    }
+    .about_cent .page-content .about1 {
+        margin-top: 27px;
+        padding: 0 23px;
+        box-sizing: border-box;
+    }
+    .about_cent .page-content .about1 p {
+        font-size: 12px;
+        color: #282828;
+        text-align: center;
+        margin-bottom: 0;
+        line-height: 30px;
+    }
+    .about_cent .page-content .about1 ul {
+        width: 100%;
+        height: auto;
+    }
+    .about_cent .page-content .about1 ul li {
+        width: 25%;
+        margin: 39px 0 31px;
+        text-align: center;
+    }
+    .about_cent .page-content .about1 ul li img {
+        width: 57px;
+        height: 58px;
+    }
+    .about_cent .page-content .about2 {
+        height: auto;
+        padding: 36px 26px 13px;
+        box-sizing: border-box;
+    }
+    .about_cent .page-content .about2 ul {
+        margin: 0;
+        height: auto;
+        padding: 0;
+    }
+    .about_cent .page-content .about2 ul li {
+        float: none;
+        width: 100%;
+    }
+    .about_cent .page-content .about2 ul li img {
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+    .about_cent .page-content .about2 ul li p {
+        font-size: 12px;
+        font-family: MicrosoftYaHei;
+        line-height: 30px;
+    }
+    .main-content .map-tab {
+        padding: 30px 26px 0;
+        width: 100%;
+    }
+    .main-content .map-tab ul.nav-tabs {
+        width: 100%;
+        position: static;
+        margin-bottom: 0;
+    }
+    .main-content .map-tab ul.nav-tabs li {
+        height: auto;
+        width: 33%;
+    }
+    .main-content .map-tab ul.nav-tabs li a {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 6.5px 0;
+        text-align: center;
+        font-size: 12px;
+        height: auto;
+        line-height: 12px;
+        text-indent: 0;
+        background-color: #FFF;
+    }
+    .main-content .map-tab ul.nav-tabs:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .main-content .map-tab ul.nav-tabs li.active>a {
+        font-weight: normal;
+    }
+    .main-content .map-tab .tab-content {
+        width: 100%;
+        position: static;
+        height: auto;
+        float: none;
+        border: none;
+        margin: 10px 0 0;
+    }
+    .main-content .map-tab .tab-content .map-list {
+        display: none;
+    }
+    .main-content .map-tab .tab-content .map-area {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    .globalization-main {
+        width: 100%;
+        position: static;
+        padding: 0 0 16px;
+        margin: 0;
+        background-size: 100%;
+        background-position: bottom;
+        height: auto;
+    }
+    #waves {
+        display: none;
+    }
+    .globalization-main h2 {
+        padding-top: 27px;
+        margin-bottom: 20px;
+    }
+    .globalization-main p {
+        font-size: 11px;
+        color: #282828;
+        font-family: MicrosoftYaHei;
+        margin-top: 0;
+        margin-bottom: 174.5px;
+        text-align: left;
+        padding: 0 26px;
+    }
+    .globalization-main p br {
+        display: none;
+    }
+    .globalization-main>div {
+        display: none!important;
+    }
+    .globalization {
+        height: auto;
+    }
+    .about_cent .page-content .about3 ul {
+        height: auto;
+        padding: 0 29px;
+        box-sizing: border-box;
+        overflow: hidden;
+        margin-bottom: 36px;
+    }
+    .about_cent .page-content .about3 ul li {
+        width: 33.3%;
+        margin-bottom: 27px;
+        text-align: center;
+    }
+    .about_cent .page-content .about3 ul li img {
+        width: 100%;
+    }
+    .about_cent .page-content .about3 h2 {
+        margin-bottom: 31px;
+    }
+    .about3 {
+        margin-top: 50px;
+    }
+    #tab2 .main-content {
+        margin-top: 45px!important;
+        padding: 0 25px;
+    }
+    .main-content .honour-area {
+        margin-top: 0;
+        width: 100%;
+        height: auto;
+        border: none;
+        margin: 0;
+        padding: 0;
+    }
+    .main-content .honour-area .left-banner {
+        position: static;
+        width: 100%;
+        height: auto;
+        border: none;
+        background: none;
+    }
+    .main-content .honour-area:first-child .left-banner img,
+    .main-content .honour-area:nth-child(2) .left-banner img,
+    .main-content .honour-area:nth-child(3) .left-banner img{
+        margin: 0;
+    }
+    .main-content .honour-area .left-banner h3 {
+        font-family: MicrosoftYaHei;
+        color: #282828;
+        margin-top: 0;
+        line-height: 20px;
+        margin-bottom: 17px;
+    }
+    .main-content .honour-area .left-banner p {
+        margin-top: 0;
+        font-size: 14px;
+        margin-bottom: 17px;
+    }
+    .honour-area ul {
+        margin-top: 49px;
+        margin-left: 0;
+    }
+    .honour-area ul li {
+        margin-bottom: 0;
+        font-size: 12px;
+        font-family: MicrosoftYaHei;
+    }
+    .main-content .honour-area:nth-child(2) h3 {
+        margin-top: 92.5px;
+    }
+    .main-content .honour-area:nth-child(3) h3 {
+        margin-top: 86.5px;
+    }
+}

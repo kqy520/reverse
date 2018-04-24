@@ -1,0 +1,101 @@
+@media screen and (max-width: 769px){
+    #header {
+        background-size: 100% 321px;
+        background-position: center 50px;
+    }
+    #header_tips {
+        width: 100%;
+        height: 321px;
+    }
+    #header_tips>div {
+        width: 100%;
+        height: 321px;
+        padding-left: 38px;
+        margin-top: 0 !important;
+        padding-top: 50px;
+        box-sizing: border-box;
+    }
+    #header_tips h3 {
+        display: none;
+    }
+    #header_tips .largeTitle {
+        display: block;
+        font-size: 32px;
+        line-height: 36px;
+        font-weight: bold;
+        font-family: MicrosoftYaHei-Bold;
+    }
+    #header_tips .smallTitle {
+        font-size: 12px;
+        line-height: 18px;
+        width: 190px;
+        margin-top: 20px;
+    }
+    .side_nav {
+        display: none;
+    }
+    #pw_nav {
+        display: none;
+    }
+    .page_contain {
+        margin-bottom: 0;
+    }
+    .sv_paragraph,
+    .jiejuefangan h3.typetxt{
+        width: 100%;
+        padding: 0;
+    }
+    .sv_paragraph > h3 img,
+    h3.sv_paragraph>img,
+    .jiejuefangan h3 img,
+    /*#tab .tabCon1 div ul .jiejue_tu img,*/
+    #tab .tabCon1.clearfix div h2 img{
+        display: none;
+    }
+    .sv_paragraph > h3,
+    h3.sv_paragraph,
+    .jiejuefangan  h3,
+    #tab .tabCon1.clearfix div h2{
+        text-align: center;
+        font-weight: normal;
+        font-size: 16px;
+    }
+    .sv_paragraph > h3 span,
+    h3.sv_paragraph>span,
+    .jiejuefangan  h3 span,
+    #tab .tabCon1.clearfix div h2 span{
+        font-family: HYe1gj;
+        font-size: 16px;
+        line-height: 30px;
+        margin: 13px 0;
+        display: inline-block;
+    }
+    .sv_paragraph > h3 span:after,
+    h3.sv_paragraph>span:after,
+    .jiejuefangan  h3 span:after,
+    #tab .tabCon1.clearfix div h2 span:after{
+        content: "";
+        display: block;
+        width: 63px;
+        height: 2px;
+        margin: 0 auto;
+        /*background: linear-gradient(#A360FF,#0084FF);*/
+        background: url(../images/guanyu-07.png) no-repeat bottom center;
+    }
+    #move_nav_1, #move_nav_2, #move_nav_3, #move_nav_4, #move_nav_5 {
+        padding: 0;
+    }
+    .android_proSup>div#showImg {
+        display: block;
+        margin: 0!important;
+        width: 100%;
+        padding: 0 25px;
+        box-sizing: border-box;
+        position: absolute;
+        left: 0;
+        bottom: -164px;
+    }
+    .android_proSup>div#showImg img{
+        width: 100%;
+    }
+}

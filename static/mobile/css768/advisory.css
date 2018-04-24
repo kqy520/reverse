@@ -1,0 +1,166 @@
+@media screen and (max-width: 769px) {
+    .zixun_header {
+        background: url("../images/zixun_01_768.jpg") no-repeat center center;
+    }
+    .index_solve1 {
+        height: auto;
+    }
+    .index_solve1>div {
+        width: 100%;
+        height: auto;
+    }
+    .index_solve1>div ul {
+        width: 100%;
+    }
+    .index_solve1>div ul li {
+        width: 100%;
+        background: none;
+        color: #282828;
+        /*height: 334px;*/
+        height: auto;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+    .index_solve1>div ul li:hover  .index_solve_hover{
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        transform: none;
+    }
+    .index_solve1>div ul li:hover  .solve0_icon{
+        opacity:1;
+    }
+    .index_solve_content,
+    div.index_solve_mask,
+    .index_solve_hover {
+        position: static;
+    }
+    .index_solve_hover h5 {
+        color: #282828;
+        font-size: 16px;
+        font-family: MicrosoftYaHei-Bold;
+        /*font-weight: normal;*/
+        margin-top: 28px;
+        margin-bottom: 26px;
+    }
+    .index_solve_hover i {
+        /*border: 1px solid #DDD;*/
+        margin-top: 23px;
+    }
+    .index_solve_hover {
+        top: 0;
+    }
+    .index_solve_hover p {
+        opacity: 1;
+        color: #282828;
+        font-size: 11px;
+        font-family: MicrosoftYaHei;
+        width: 60%;
+        height: auto;
+        margin: 0 auto 25px;
+    }
+    .index_solve1>div ul li:hover .index_solve_mask {
+        background: none;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+    .index_solve_hover,
+    .index_solve_ul,
+    .index_solve1>div ul li:hover .index_solve_hover h5,
+    .index_solve_hover i,
+    .index_solve1>div ul li:hover .index_solve_hover p{
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        transform: none;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+    .zixun_jiazhi .spe_title {
+        color: #FFF;
+    }
+    .zixun_jiazhi .spe_title:after {
+        background: #FFF;
+    }
+    .zixun_jiazhi h3.sv_paragraph {
+        padding-top: 0!important;
+        width: 100%!important;
+    }
+    .zixun_jiazhi>div {
+        width: 100%;
+        height: auto;
+    }
+    .zixun_jiazhi2 {
+        padding-top: 30px;
+        width: 100%;
+    }
+    .zixun_jiazhi1 ul li {
+        width: 100%;
+        padding-bottom: 49px;
+        text-align: center;
+    }
+    .zixun_jiazhi1 ul li img {
+        margin-right: 0;
+    }
+    .zixun3 {
+        width: 80%;
+        margin: 0 auto;
+        height: auto;
+        float: none;
+    }
+    .zixun_jiazhi2 ul li p {
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        font-size: 16px;
+        line-height: 48px;
+        font-family: MicrosoftYaHei-Bold;
+    }
+    .zixun_jiazhi2 ul li span {
+        float: none;
+        display: block;
+        padding-top: 0;
+        width: 100%;
+        text-align: left;
+        font-size: 11px;
+        line-height: 23px;
+        font-family: MicrosoftYaHei;
+    }
+    .zixun_jiazhi {
+        height: auto;
+        background-size: 100% 100%;
+    }
+    #move_nav_4 {
+        /*display: none;*/
+    }
+    i.solve5_icon {
+        background-image: url("../images/zixun-02b-768.png");
+    }
+    i.solve6_icon {
+        background-image: url("../images/zixun-03b-768.png");
+    }
+    i.solve7_icon {
+        background-image: url("../images/zixun-04b-768.png");
+    }
+    i.solve8_icon {
+        background-image: url("../images/zixun-05b-768.png");
+    }
+    i.solve9_icon {
+        background-image: url("../images/zixun-06b-768.png");
+    }
+    i.solve10_icon {
+        background-image: url("../images/zixun-07b-768.png");
+    }
+}

@@ -1,0 +1,132 @@
+@media screen and (max-width: 769px){
+    body {
+        min-width: 0;
+    }
+    /************header*****************/
+    #index_header, #header {
+        width: 100%;
+        height: 371px;
+    }
+    .index_header_box {
+        height: 50px;
+        line-height: 50px;
+    }
+    .header_box {
+        height: 50px;
+        line-height: 50px;
+        padding: 0 3px;
+        box-sizing: border-box;
+    }
+    .header_box>div{
+        width: 100%!important;
+    }
+    .header_box_right .header_icron {
+        width: 100px;
+        height: 31px;
+        margin-top: 9.5px;
+    }
+    .header_collapse {
+        display: block;
+        color: #FFF;
+        font-size: 20px;
+        width: 50%;
+        float: right;
+        text-align: right;
+    }
+    .header_collapse .try_btn {
+        background: #2345FF;
+        color: #FFF;
+        font-size: 14px;
+        width: 80px;
+        height: 30px;
+        border: none;
+        outline: none;
+        vertical-align: middle;
+        border-radius: 2px;
+        line-height: 30px;
+        display: inline-block;
+        text-align: center;
+    }
+    .header_collapse span {
+        padding: 5.5px;
+    }
+    .header_box_left, .header_oper-wrap {
+        display: none;
+    }
+
+    /*************footer*****************/
+    .footer-content {
+        display: none;
+    }
+    footer {
+        height: 120px;
+        background: #21252F;
+    }
+    .footer-content-768 {
+        display: block;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 30px;
+    }
+    .footer-content-768 .beforeSaleTitle {
+        color: #A6AAAF;
+    }
+    .footer-content-768 .footer-l{
+        font-size: 10px;
+        color: #4B5054;
+    }
+    .footer-content-768 .p2 {
+        font-size: 24px;
+        color: #2E86E6;
+    }
+    /*ͷ������*/
+    #tabbarList {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        background: #202124;
+        z-index: 1000;
+    }
+    #tabbarList>li {
+        border-top: 1px solid #c0c0c0;
+        line-height: 40px;
+        height: auto;
+        color: #FFF;
+        font-size: 14px;
+    }
+    #tabbarList>li>ul {
+        width: 100%;
+        background: #323232;
+    }
+    #tabbarList>li>ul>li {
+        width: 100%;
+        height: auto;
+        line-height: 40px;
+        font-size: 14px;
+    }
+    #tabbarList>li>ul>li>ul>li {
+        font-size: 14px;
+    }
+    .canShow {
+        float: right;
+        padding-right: 25px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    .showChildList>ul{
+        display: none;
+    }
+    #productAndService>ul,
+    #tabbarList {
+        display: none;
+    }
+    #productAndService {
+        text-indent: 25px;
+    }
+    #tabbarList a {
+        width: 100%;
+        display: inline-block;
+        text-indent: 25px;
+    }
+}

@@ -1,0 +1,246 @@
+@media screen and (max-width: 769px){
+    .pinggu_header {
+        background-image: url("../images/pinggu_ban_768.jpg");
+    }
+    .android_proSup {
+        padding: 12px 25px;
+    }
+    .ios_proSup .android_list {
+        width: 100%;
+    }
+    .android_proSup .android_list {
+        margin-left: 0;
+    }
+    .ios_proSup ul li img {
+        width: 76px;
+        height: 76px;
+        margin-right: 0;
+    }
+    .ios_proSup .android_list ul li span {
+        font-size: 11px;
+        font-family: MicrosoftYaHei;
+        width: 70%;
+        float: right;
+        line-height: 30px;
+        margin-top: -8.5px;
+    }
+    .android_proSup ul li:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .android_proSup>div:last-child {
+        display: none;
+    }
+    .ios_proSup .y_xian,
+    .ios_proSup .y_xian4,
+    .ios_proSup .y_xian3,
+    .ios_proSup .y_xian1,
+    .ios_proSup .y_xian2{
+        height: 70%;
+        left: 63px;
+    }
+    .pinggu_neir {
+        height: auto;
+        background-size: 100% 100%;
+        background-image: url("../images/pinggu_bj1_768.jpg");
+    }
+    .pinggu_neir>div {
+        width: 100%;
+        height: auto;
+        padding: 0 26px;
+        box-sizing: border-box;
+    }
+    .pinggu_neir>div ul {
+        margin-top: 0;
+    }
+    .pinggu_neir>div ul li {
+        width: 100%;
+        border: none;
+        height: auto;
+    }
+    .pinggu_neir>div ul li span {
+        font-size: 16px;
+        font-family: MicrosoftYaHei-Bold;
+        line-height: 68px;
+    }
+    .pinggu_neir>div ul li p {
+        font-size: 12px;
+        font-family: MicrosoftYaHei;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .pinggu_neir>div ul li i img {
+        width: 58px;
+        height: 58px;
+        margin-top: 36px;
+        padding: 0;
+    }
+    .pinggu_neir>div ul li:last-child p {
+        text-align: left;
+        margin-bottom: 59px;
+    }
+    .pinggu_neir>div ul li:hover {
+        background: none;
+    }
+    .android_proSup1 .android_list1 {
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+    .android_proSup1 ul {
+        width: 100%;
+    }
+    .android_proSup1 ul li {
+        width: 100%;
+        margin: 38px 0;
+        padding: 0 28px;
+        box-sizing: border-box;
+    }
+    .android_proSup1 .android_list1 ul li img{
+        height: 42px;
+        width: 41px;
+        /*border: 1px solid #DDD;*/
+        box-sizing: border-box;
+        /*margin-left: 28px;*/
+        margin-right: 18px;
+        position: absolute;
+    }
+    .android_proSup1 .android_list1 ul li span {
+        font-size: 12px;
+        font-family: MicrosoftYaHei;
+        width: 100%;
+        line-height: 24px;
+        padding-left: 59px;
+        box-sizing: border-box;
+        height: 50px;
+    }
+    .android_proSup1 {
+        position: relative;
+        padding-bottom: 153px;
+    }
+    .android_proSup1 .shang_tu {
+        position: absolute;
+        bottom: 20px;
+        height: 143px;
+        width: 100%;
+        text-align: center;
+    }
+    .android_proSup1 .shang_tu img{
+        height: 143px;
+        width: 267px;
+    }
+
+    h3.sv_paragraph {
+        width: 100%!important;
+        margin-top: 0!important;
+    }
+    .pinggu_fuwu {
+        margin-top: 0;
+        height: 100%;
+        padding: 0 25px 48px;
+        box-sizing: border-box;
+        background-image: url("../images/pinggu_bj3_768.jpg");
+    }
+
+
+    .jiejuefangan {
+        padding: 0 17px;
+        box-sizing: border-box;
+    }
+    .jiejuefangan h3.typetxt {
+        margin-bottom: 26px;
+    }
+    .jiejuefangan .esdk_form:nth-child(2) {
+        width: 100%;
+        box-sizing: border-box;
+        padding-top: 35px;
+        padding-bottom: 40px;
+        margin-bottom: 32px;
+    }
+    .esdk_form .items_title {
+        width: 20%;
+        font-size: 12px;
+        font-family: MicrosoftYaHei-Bold;
+        text-align: left;
+    }
+    .esdk_form div input {
+        width: 75%;
+        float: right;
+        height: 28px;
+        font-size: 12px;
+    }
+    .esdk_form form>div div {
+        width: 75%;
+        display: inline-block;
+        height: 28px;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .esdk_form form>div div input[type=text] {
+        /* width: 75%;
+        box-sizing: border-box;
+        float: none; */
+        margin-bottom: 10px;
+    }
+    .esdk_form {
+        text-align: left;
+    }
+    .esdk_form form>div div>span,
+    .esdk_form form>div div>a {
+        display: block;
+    }
+    .getCode {
+        display: inline-block;
+        width: 45%;
+        border: none;
+        outline: none;
+        float: right;
+        height: 28px;
+        font-size: 12px;
+        background: #0234FF;
+        color: #FFF;
+    }
+    .page_bottom_btn a {
+        height: 28px;
+        font-size: 12px;
+    }
+    .esdk_form .error-msg {
+        text-indent: 0;
+        width: 75%;
+        float: right;
+        padding-left: 15px;
+        box-sizing: border-box;
+    }
+    .esdk_form>form>div:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .esdk_form form>div div {
+        min-height: 30px;
+    }
+    .pinggu_neir>div ul li i .img_768,
+    .sv_paragraph .img_768,
+    .ios_proSup ul li .img_768{
+        display: block;
+        max-width: 100%;
+    }
+    .pinggu_neir>div ul li i img:first-child {
+        display: none;
+    }
+    .android_proSup1 .android_list1 ul li img:first-child,
+    .sv_paragraph > img:first-child{
+        display: none;
+    }
+    div.sv_paragraph > h3 span,
+    h3.sv_paragraph>span,
+    .jiejuefangan h3 span,
+    #tab .tabCon1.clearfix div h2 span {
+        margin-top: 20px;
+    }
+    #move_nav_5 .pinggu_fuwu .sv_paragraph.duix {
+        margin-top: 50px!important;
+    }
+}

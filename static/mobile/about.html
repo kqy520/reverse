@@ -1,0 +1,667 @@
+
+<!doctype html>
+<html>
+<head>
+    <script>(window.localStorage.setItem('I18N-UI-LANG', 'zh-CN'), typeof navigator !='undefined' && !(/(Android|iPhone|Windows Phone|UC|Kindle)/.test(navigator.userAgent)) && (window.location.href = '/'));</script>
+	<meta name="baidu-site-verification" content="n7SzuB5zgi" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no,scroll=no"/>
+	<meta charset="utf-8">
+	<title>【Testin安全】- 您身边的安全专家</title>
+	<meta name="keywords" content="Testin,Testin安全,云测安全,安全检测,安全监测,安全扫描,iOS安全扫描,安全渗透,应用风险,应用安全,Android应用安全,iOS应用安全,安卓加固,iOS应用加固,Android应用加固,应用加固,IPA加固,APP加固,应用加密,APP加密,APP保护,APP防破解,APP反编译,防止反编译,钓鱼监测,渠道监控,盗版监测,源代码安全,源代码审计,安全咨询" />
+	<meta name="description" content="Testin安全致力于为企业提供一站式安全服务，秉承让企业更安全的服务理念，为企业提供全面的安全解决方案和7x24小时全天候的专业服务。业务包含安全渗透测试、源代码安全审计、移动应用安全加固、主机安全防护、安全咨询等内容。客户遍及金融、政企、互联网、运营商、IOT、游戏等行业。" />
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no,scroll=no"/>
+    <link rel="stylesheet" href="css/public.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/index.css" />
+	<link rel="stylesheet" href="css/childpages.css" />
+
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/newgw.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css" /><!--切换-->
+    <link rel="stylesheet" href="css/about_us.css" /><!--切换-->
+    <link rel="stylesheet" type="text/css" href="css/index2.0.css"/><!--闪-->
+
+    <link rel="stylesheet" type="text/css" href="css768/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css768/style.css">
+    <!--<link rel="stylesheet" type="text/css" href="css768/cipher.css">-->
+    <link rel="stylesheet" type="text/css" href="css768/childpages.css">
+    <link rel="stylesheet" type="text/css" href="css768/about.css">
+</head>
+<body style="background-color:#ffffff;">
+<style>.map-list li span{ line-height:26px; font-size:12px;}
+.about .banner-main {
+    width:800px;
+    text-align: center;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left:35%;
+    margin-top: 226px;
+    margin-left: -227px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+}
+.about .banner-main .p1 {
+    font-size: 36px;
+    color: #fff;
+    line-height: 30px;
+}
+.about .banner-main .p2 {
+    font-size:16px;
+    color: #fff;
+    line-height: 28px;
+}
+.about .banner-main .p1:before {
+    margin-right: 17px;
+}
+.about .banner-main .p1:before, .banner-main .p1:after {
+    content: '';
+    display: inline-block;
+    width: 300px;
+    height: 7px;
+    border: 1px solid #fff;
+    border-left: 0;
+    border-right: 0;
+    position: relative;
+    top: -8px;
+    opacity: .5;
+}
+.about .banner-main .p1:after {
+    margin-left: 17px;
+}
+
+</style>
+<!-- 头部 -->
+<div id="header" class="about_header">
+	<div class="header_box">
+	<div style="width: 1200px;margin:0px auto;">
+		<div class="header_box_right fl">
+			<a class="header_icron" href="index.html"><img src="images/logo.png" /></a>
+		</div>
+
+		<div class="header_box_left fl">
+			<ul class="header_nav">
+				<li><a href="/">首页<b></b></a></li>
+				<li class="header_box1">
+					<a href="javascript:;">产品&amp;服务<b></b></a>
+					<div class="navs_box_bg1 nav_box_wrap" style="display:none;">
+						<div class="navs_box1 clearfix">
+							<div class="navs_box_left">
+								<ul>
+									<li data-for="nav_aq" class="active"><a>安全检测</a><i></i></li>
+									<li data-for="nav_hg"><a>安全防护</a><i></i></li>
+									<li data-for="nav_gl"><a>安全咨询</a><i></i></li>
+								</ul>
+							</div>
+							<div class="navs_box_middle">
+								<div id="nav_aq">
+									<div class="navs_box_list">
+										<div class="navs_box_item">
+											<a href="">
+												<p class="navs_box_title">
+													<span class="navs_box_style">安全渗透测试</span>
+												</p>
+											</a>
+										</div>
+										<div class="navs_box_item">
+											<a href="">
+												<p class="navs_box_title">
+													<span class="navs_box_style">源代码安全审计</span>
+												</p>
+											</a>
+										</div>
+										<div class="navs_box_item">
+											<a href="">
+												<p class="navs_box_title">
+													<span class="navs_box_style">应用安全扫描</span>
+												</p>
+											</a>
+										</div>
+										<div class="navs_box_item">
+											<a href="">
+												<p class="navs_box_title">
+													<span class="navs_box_style">商用密码应用安全性评估</span>
+												</p>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div id="nav_hg" style="display:none;">
+									<div class="navs_box_list">
+										<div class="navs_box_item">
+                                             <a href="">
+												<p class="navs_box_title">
+													<span class="navs_box_style">移动应用安全加固</span>
+												</p>
+											</a>
+										</div>
+										<div class="navs_box_item">
+                                             <a href="">
+												<p class="navs_box_title">
+													<span class="navs_box_style">主机安全防护</span>
+												</p>
+											 </a>
+										</div>
+									</div>
+								</div>
+
+								<div id="nav_gl" style="display:none;">
+									<div class="navs_box_list">
+										<div class="navs_box_item">
+											 <a href="">
+												<p class="navs_box_title">
+													<span class="navs_box_style">安全咨询</span>
+												</p>
+											 </a>
+										</div>
+									</div>
+								</div>
+								<div id="nav_fwd" style="display:none;">
+									<div class="navs_box_list">
+										<div class="navs_box_item">
+
+										</div>
+										<div class="navs_box_item">
+
+										</div>
+										<div class="navs_box_item">
+
+										</div>
+									</div>
+								</div>
+								<div id="nav_dlp" style="display:none;">
+									<div class="navs_box_list">
+										<div class="navs_box_item">
+
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="navs_box_right">
+								<a>
+									<img src="images/boxright_ct.png">
+								</a>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="javascript:;">解决方案<b></b></a>
+				</li>
+				<li><a href="/About" >关于我们<b></b></a></li>
+			</ul>
+		</div>
+		<div class="header_oper-wrap fr">
+								<a class="regist" href="/treg"><i></i>注册</a>
+					<a class="login" href="/tlogin">登录</a>
+			<a class="header_language" href="/enindex">English</a>
+		</div>
+        <div class="header_collapse">
+            <a class="try_btn" href="/web/account/login">立即试用</a>
+            <span class="fa fa-bars" id="tabbar"></span>
+        </div>
+        <ul id="tabbarList">
+            <li><a href="index.html">首页</a></li>
+            <li id="productAndService"><span class="canShow fa fa-angle-up"></span>产品&amp;服务
+                <ul>
+                    <li class="showChildList"><span class="canShow fa fa-angle-up"></span>安全检测
+                        <ul>
+                            <li><a href="pentest.html">安全渗透测试</a></li>
+                            <li><a href="audit.html">源代码安全审计</a></li>
+                            <li><a href="scan.html">应用安全扫描</a></li>
+                            <li><a href="cipher.html">商用密码应用安全性评估</a></li>
+                        </ul>
+                    </li>
+                    <li class="showChildList"><span class="canShow fa fa-angle-up"></span>安全防护
+                        <ul>
+                            <li><a href="reinforce.html">移动应用安全加固</a></li>
+                            <li><a href="host.html">主机安全防护</a></li>
+                        </ul>
+                    </li>
+                    <li class="showChildList"><span class="canShow fa fa-angle-up"></span>安全咨询
+                        <ul>
+                            <li><a href="advisory.html">安全咨询</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="solution.html">解决方案</a></li>
+            <li><a href="about.html">关于我们</a></li>
+        </ul>
+	</div>
+</div>
+	<div id="header_tips" class="sv_header_tips about">
+        <div class="banner-main">
+            <p class="p1">关于我们</p>
+            <p class="p2" style="margin-top: 20px">Testin为开发者提供随叫随到的一站式测试服务，和您一起打造更高品质的产品</p>
+            <p class="p3">Testin为开发者提供随叫随到的一站式测试服务，和您一起打造更高品质的产品</p>
+        </div>
+	</div>
+</div>
+
+
+ <!--内容tab切换-->
+<div class="about_cent">
+    <div class="page-content" style="margin-top:-20px;">
+        <div class="nav-tabs-out">
+            <ul class="nav-tabs testin-nav-tabs" id="myTab">
+                <li id="myTabLi1" class="active" data-toggle="tab" href="#tab1" aria-expanded="true"> 公司简介</li>
+                <li id="myTabLi2" class="" data-toggle="tab" href="#tab2" aria-expanded="false">公司荣誉</li>
+            </ul>
+        </div>
+        <div class="tab-content" id="myTabContent">
+            <div id="tab1" class="tab-pane fade active in">
+                <div class="main-content">
+                    <div class="about1 clearfix">
+                        <h2><img src="images/about_title1.png"><span class="spe_title">关于我们</span></h2>
+                        <p>Testin安全致力于为企业提供一站式安全服务</p>
+                         <p> 目前北京、上海、广州、深圳、杭州、成都、武汉、南京、济南、合肥、中国香港和旧金山、马来西亚、东南亚等多地设有服务分支机构</p>
+                          <p>Testin安全秉承让企业更安全的服务理念</p>
+                          <p>为企业提供全面的安全解决方案和7X24小时全天候的专业服务</p>
+                          <p>包含安全渗透测试、源代码安全审计、移动应用安全加固、主机安全防护、安全咨询等内容。客户遍及金融、政企、互联网、运营商、IOT、游戏等行业</p>
+                          <p>同时Testin安全还是国家密码局认可的第一批第三方商用密码应用安全性测评机构</p>
+                          <p>可为企业提供专业的商用密码应用安全性评估服务</p>
+                         <ul>
+                               <li><img src="images/about_i1.png"></li>
+                               <li><img src="images/about_i2.png"></li>
+                               <li><img src="images/about_i3.png"></li>
+                               <li><img src="images/about_i4.png"></li>
+                         </ul>
+                    </div>
+                    <div class="about2 clearfix">
+                         <ul>
+                              <li><img src="images/about1.png"></li>
+                              <li>
+                                    <p>Testin安全隶属于北京云聚信安科技有限公司,Testin云测“一站式应用云测试服务”平台，为应用（Web、移动网页、原生移动应用、H5、公众号、小程序）、移动游戏、VR/AR、可穿戴、人工智能、智能家居、智能驾驶、IOT物联网和工业APP开发者提供必需的一站式应用测试服务和质量保障。
+                                    </p>
+                                    <p>Testin云测重塑了传统测试模式，通过AI自动化真机云测试、共享众包测试、全栈安全检测和持续的海量测试数据分析，目前已持续服务超过90万开发者，为超过240万个应用进行了超过1.9亿次测试。</p>
+                                    <p>Testin云测拥有ISO9000、ISO27001、ISO2000、ISO17025和CMMI3认证资质，是“中国合格评定国家认可委员会实验室”（CNAS）认证测试机构，累计3轮融资超过8000万美元，与ARM、Intel、Google、IBM、微软、360以及全球众多的移动互联网生态企业建立了良好的合作与沟通关系，先后被评为德勤。</p>
+                              </li>
+                         </ul>
+                    </div>
+                    <div class="map-tab clearfix">
+                        <ul class="nav-tabs testin-nav-tabs" id="mapTab">
+                            <li class="active"><a data-toggle="tab" href="#tab11" aria-expanded="true">北京总部</a></li>
+                            <li class=""><a data-toggle="tab" href="#tab12" aria-expanded="false">上海办事处</a></li>
+                            <li class=""><a data-toggle="tab" href="#tab13" aria-expanded="false">深圳办事处</a></li>
+                            <li class=""><a data-toggle="tab" href="#tab14" aria-expanded="false">成都办事处</a></li>
+                            <li class=""><a data-toggle="tab" href="#tab15" aria-expanded="false">广州办事处</a></li>
+                            <li class=""><a data-toggle="tab" href="#tab16" aria-expanded="false">杭州办事处</a></li>
+                            <li class=""><a data-toggle="tab" href="#tab17" aria-expanded="false">合肥办事处</a></li>
+                            <li class=""><a data-toggle="tab" href="#tab18" aria-expanded="false">香港办事处</a></li>
+                        </ul>
+                        <div class="tab-content" id="mapTabContent">
+                            <div id="tab11" class="tab-pane fade active in">
+                                <ul class="map-list">
+                                    <li><span>地址：</span>北京市朝阳区酒仙桥路52号东方科技园4号楼</li>
+                                    <li><span>电话：</span>400-990-5577</li>
+                                    <li><span>QQ咨询：</span>800074282</li>
+                                    <li><span>服务咨询：</span>service@testin.cn</li>
+                                    <li><span>商务合作：</span>bd@testin.cn</li>
+                                    <li><span>QQ群：</span>14群：5786270、15群：103983327、16群：3010818，欢迎您加入Testin讨论群与我们进行交流</li>
+                                </ul>
+                                <div class="map-area">
+                                    <img src="images/map-beijing.jpg">
+                                </div>
+                            </div>
+                            <div id="tab12" class="tab-pane fade">
+                                <ul class="map-list">
+                                    <li><span>地址：</span>上海市普陀区金沙江路1759号圣诺亚大厦A座905室</li>
+                                    <li><span>电话：</span>400-990-5577</li>
+                                    <li><span>QQ咨询：</span>800074282</li>
+                                    <li><span>服务咨询：</span>service@testin.cn</li>
+                                    <li><span>商务合作：</span>bd@testin.cn</li>
+                                    <li><span>QQ群：</span>14群：5786270、15群：103983327、16群：3010818，欢迎您加入Testin讨论群与我们进行交流</li>
+                                </ul>
+                                <div class="map-area">
+                                    <img src="images/map-shanghai.jpg">
+                                </div>
+                            </div>
+                            <div id="tab13" class="tab-pane fade">
+                                <ul class="map-list">
+                                    <li><span>地址：</span>深圳市南山区金鸡路1号田厦翡翠明珠写字楼2507-2508</li>
+                                    <li><span>电话：</span>400-990-5577</li>
+                                    <li><span>QQ咨询：</span>800074282</li>
+                                    <li><span>服务咨询：</span>service@testin.cn</li>
+                                    <li><span>商务合作：</span>bd@testin.cn</li>
+                                    <li><span>QQ群：</span>14群：5786270、15群：103983327、16群：3010818，欢迎您加入Testin讨论群与我们进行交流</li>
+                                </ul>
+                                <div class="map-area">
+                                    <img src="images/map-shenzhen.jpg">
+                                </div>
+                            </div>
+                            <div id="tab14" class="tab-pane fade">
+                                <ul class="map-list">
+                                    <li><span>地址：</span>成都市天府软件园B区8栋6楼</li>
+                                    <li><span>电话：</span>400-990-5577</li>
+                                    <li><span>QQ咨询：</span>800074282</li>
+                                    <li><span>服务咨询：</span>service@testin.cn</li>
+                                    <li><span>商务合作：</span>bd@testin.cn</li>
+                                    <li><span>QQ群：</span>14群：5786270、15群：103983327、16群：3010818，欢迎您加入Testin讨论群与我们进行交流</li>
+                                </ul>
+                                <div class="map-area">
+                                    <img src="images/map-chengdu.jpg">
+                                </div>
+                            </div>
+                            <div id="tab15" class="tab-pane fade">
+                                <ul class="map-list">
+                                    <li><span>地址：</span>广州市天河区天河北路365号寰城海航广场1704</li>
+                                    <li><span>电话：</span>400-990-5577</li>
+                                    <li><span>QQ咨询：</span>800074282</li>
+                                    <li><span>服务咨询：</span>service@testin.cn</li>
+                                    <li><span>商务合作：</span>bd@testin.cn</li>
+                                    <li><span>QQ群：</span>14群：5786270、15群：103983327、16群：3010818，欢迎您加入Testin讨论群与我们进行交流</li>
+                                </ul>
+                                <div class="map-area">
+                                    <img src="images/map-guangzhou.jpg">
+                                </div>
+                            </div>
+                            <div id="tab16" class="tab-pane fade">
+                                <ul class="map-list">
+                                    <li><span>地址：</span>杭州市西湖区文三路478号华星时代广场C座610</li>
+                                    <li><span>电话：</span>400-990-5577</li>
+                                    <li><span>QQ咨询：</span>800074282</li>
+                                    <li><span>服务咨询：</span>service@testin.cn</li>
+                                    <li><span>商务合作：</span>bd@testin.cn</li>
+                                    <li><span>QQ群：</span>14群：5786270、15群：103983327、16群：3010818，欢迎您加入Testin讨论群与我们进行交流</li>
+                                </ul>
+                                <div class="map-area">
+                                     <img src="images/map-hangzhou.png">
+                                </div>
+                            </div>
+                            <div id="tab17" class="tab-pane fade">
+                                <ul class="map-list">
+                                    <li><span>地址：</span>合肥市包河区万岗路创客云谷2层</li>
+                                    <li><span>电话：</span>400-990-5577</li>
+                                    <li><span>QQ咨询：</span>800074282</li>
+                                    <li><span>服务咨询：</span>service@testin.cn</li>
+                                    <li><span>商务合作：</span>bd@testin.cn</li>
+                                    <li><span>QQ群：</span>14群：5786270、15群：103983327、16群：3010818，欢迎您加入Testin讨论群与我们进行交流</li>
+                                </ul>
+                                <div class="map-area">
+                                    <img src="images/map-hefei.jpg">
+                                </div>
+                            </div>
+                            <div id="tab18" class="tab-pane fade">
+                                  <ul class="map-list">
+                                      <li><span>地址：</span>香港九龍觀塘敬業街55號皇廷廣場17樓C室</li>
+                                      <li><span>电话：</span>2392-1801</li>
+                                      <li><span>QQ咨询：</span>https://www.facebook.com/TestinHK/</li>
+                                      <li><span>服务咨询：</span>infohk@testin.cn</li>
+                                      <li><span>商务合作：</span>infohk@testin.cn</li>
+                                      <!--<li><span>QQ群：</span>14群：5786270、15群：103983327、16群：3010818，欢迎您加入Testin讨论群与我们进行交流</li>-->
+                                  </ul>
+                                  <div class="map-area">
+                                      <img src="images/map-hk.png">
+                                  </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                <!--全球化服务-->
+		        <div class="globalization">
+                    <canvas id="waves" class="waves"></canvas>
+		    		<div class="globalization-main">
+                        <div class="container" style="top: 163px;left: 39px;">
+                            <div class="dot"></div>
+                            <div class="out-line"></div>
+                            <div class="out-line2"></div>
+                        </div>
+                        <div class="container" style="top: 138px;left: 178px;">
+                            <div class="dot"></div>
+                            <div class="out-line"></div>
+                            <div class="out-line2"></div>
+                        </div>
+                        <div class="container" style="top: 122px;left: 569px;">
+                            <div class="dot"></div>
+                            <div class="out-line"></div>
+                            <div class="out-line2"></div>
+                        </div>
+                        <div class="container" style="top: 159px;right: 300px;">
+                            <div class="dot"></div>
+                            <div class="out-line"></div>
+                            <div class="out-line2"></div>
+                        </div>
+                        <div class="container" style="top: 162px;right: 334px;">
+                            <div class="dot"></div>
+                            <div class="out-line"></div>
+                            <div class="out-line2"></div>
+                        </div>
+                        <div class="container" style="top: 186px;right: 357px;">
+                            <div class="dot"></div>
+                            <div class="out-line"></div>
+                            <div class="out-line2"></div>
+                        </div>
+                        <div class="container" style="top: 211px;right: 307px;">
+                            <div class="dot"></div>
+                            <div class="out-line"></div>
+                            <div class="out-line2"></div>
+                        </div>
+                        <div class="container" style="top: 234px;right: 317px;">
+                            <div class="dot"></div>
+                            <div class="out-line"></div>
+                            <div class="out-line2"></div>
+                        </div>
+                        <div class="container" style="top: 244px;right: 344px;">
+                            <div class="dot"></div>
+                            <div class="out-line"></div>
+                            <div class="out-line2"></div>
+                        </div>
+                        <div class="container" style="top: 257px;right: 335px;">
+                            <div class="dot"></div>
+                            <div class="out-line"></div>
+                            <div class="out-line2"></div>
+                        </div>
+
+                        <div class="container" style="top: 211px;right: 371px;">
+                            <div class="dot"></div>
+                            <div class="out-line"></div>
+                            <div class="out-line2"></div>
+                        </div>
+                        <div class="container" style="top: 275px;right: 476px;">
+                            <div class="dot"></div>
+                            <div class="out-line"></div>
+                            <div class="out-line2"></div>
+                        </div>
+                        <div class="container" style="top: 295px;right: 389px;">
+                            <div class="dot"></div>
+                            <div class="out-line"></div>
+                            <div class="out-line2"></div>
+                        </div>
+                        <div class="container" style="top: 442px;right: 205px;">
+                            <div class="dot"></div>
+                            <div class="out-line"></div>
+                            <div class="out-line2"></div>
+
+                        </div>
+		    			<h2><img src="images/about_title2.png"><span class="spe_title">合作客户遍布海外</span></h2>
+		    			<p>Testin在北京、广州、旧金山和中国香港设有测试机房实验室。Testin拥有超过50000款终端设备，<br/>
+							客户遍布海内外各地，并在北京、上海、广州、深圳、杭州、成都、武汉、南京、济南、合肥、中国香港和旧金山等多地设有服务分支机构。</p>
+		    		</div>
+		    </div>
+<!--闪 over-->
+                <div class="about3 clearfix">
+                         <h2><img src="images/about_title3.png"><span class="spe_title">Testin合作厂商</span></h2>
+                         <ul>
+                             <li><img src="images/guanyu-08.png"></li>
+                             <li><img src="images/guanyu-09.png"></li>
+                             <li><img src="images/guanyu-10.png"></li>
+                             <li><img src="images/guanyu-11.png"></li>
+                             <li><img src="images/guanyu-12.png"></li>
+                             <li><img src="images/guanyu-13.png"></li>
+                             <li><img src="images/guanyu-14.png"></li>
+                             <li><img src="images/guanyu-15.png"></li>
+                             <li><img src="images/guanyu-16.png"></li>
+                             <li><img src="images/guanyu-18.png"></li>
+                             <li><img src="images/guanyu-19.png"></li>
+                             <li><img src="images/guanyu-20.png"></li>
+                         </ul>
+            </div>
+            </div>
+            <div id="tab2" class="tab-pane fade">
+                <div class="main-content">
+                    <div class="honour-area">
+                        <div class="left-banner">
+                            <h3>Testin荣誉</h3>
+                            <p>2012年－2017年</p>
+                            <img src="images/logo_1.png">
+                        </div>
+                          <ul>
+                            <li>2016年11月，荣获德勤主办《2015德勤高科技高成长中国50强》</li>
+                            <li>2016年01月，荣获CSDN2015开发工具及服务年度大奖</li>
+                            <li>2016年01月，在2015年度中国互联网+创新奖颁奖盛典上，获“最佳服务商30强企业”奖项</li>
+                            <li>2015年12月，荣获中国电子信息产业发展研究院颁发的《2015年度中国软件和信息服务银行领域标杆服务商》奖项</li>
+                            <li>2015年11月，荣获德勤主办《2015德勤高科技高成长中国50强》；</li>
+                            <li>2015年11月，荣获全球知名投资风向杂志《红鲱鱼》(Red Herring) 2015全球创新100强</li>
+                            <li>2015年11月，2015全球移动互联网卓越成就奖评选中荣获“年度最佳服务平台奖”</li>
+                            <li>2015年03月，荣获阿里云主办《2014—2015年度开发者服务平台奖》；</li>
+                            <li>2015年03月，荣获工信部主办“Cloud China 2015云帆奖”《2014－2015云计算优秀解决方案/产品奖》，《2014-2015 年度推动云计算行业 发展突出贡献单位奖》及《2014-2015 年度云计算行业 突出贡献人物奖》三项大奖；</li>
+                            <li>2014年03月，荣获“ChinaBang Awards 2014”《年度企业级应用/ 云服务》;</li>
+                            <li>2012年12月，荣获微软主办《微软云加速器云业务成长奖》及《微软云加速器成长之星奖》两项大奖；</li>
+                            <li>2012年12月，荣获中国互联网协会主办《2012年度年度用户最喜爱移动互联网品牌》及《2012年度年度云计算创新服务产品奖》两项大奖；</li>
+                          </ul>
+                    </div>
+                    <div class="honour-area">
+                        <div class="left-banner">
+                            <h3>Testin奖项</h3>
+                            <p>2013年－2017年</p>
+                            <img src="images/logo_2.png">
+                        </div>
+                        <ul>
+                          <li>2017年08月，荣获《第八届中国电子商务文化节-2017中国电子商务百强企业》</li>
+                          <li>2017年02月，荣获《2016年度最佳游戏产业服务商金苹果奖》</li>
+                          <li>2016年10月，荣获《2016年度中国云测试服务领域最具影响力企业奖》</li>
+                          <li>2016年10月，荣获《2016年度中国云测试服务领域最佳解决方案奖》</li>
+                          <li>2016年01月，荣获艾媒颁发的2015最佳开发者服务平台</li>
+                          <li>2016年01月，荣获新浪颁发2015年度最佳游戏周边服务奖“金浪奖”</li>
+                          <li>2016年01月，荣获CSDN2015开发工具及服务年度大奖</li>
+                          <li>2016年01月，在2015年度中国互联网+创新奖颁奖盛典上，获“最佳服务商30强企业”奖项</li>
+                          <li>2015年12月，荣获《 2015年度中国软件和信息服务 银行领域标杆服务商奖》</li>
+                          <li>2015年12月，创始人兼CEO王军荣获《2015中国信息产业年度新锐人物》</li>
+                          <li>2015年11月，荣获成都市政府及全球移动游戏开发者大会主办，天府奖《2015年度移动游戏第三方服务机构奖》</li>
+                          <li>2015年11月，荣获德勤主办《2015德勤高科技高成长中国50强》第十五名</li>
+                          <li>2015年11月，荣获《红鲱鱼》(Red Herring) 2015全球创新100强</li>
+                          <li>2015年11月，荣获《最具投资价值价值50强企业》</li>
+                          <li>2015年11月，荣获《年度最佳服务平台》</li>
+                          <li>2015年11月，荣获《2015年全球移动互联网卓越成就奖 年度最佳服务平台奖》</li>
+                          <li>2015年11月，Testin云测Pre.im荣获《年度最佳新型服务平台奖》</li>
+                          <li>2015年10月，荣获文化部社发基金主办“2015郑和奖（The Cheng Ho Prize）”《最佳海外移动游戏云测试平台》</li>
+                          <li>2015年10月，荣获《2015 Android World最佳开发者服务大奖》</li>
+                          <li>2015年07月，荣获《2015年度手游出海“郑和奖”》</li>
+                          <li>2015年03月，荣获阿里云主办《2014—2015年度开发者服务平台奖》</li>
+                          <li>2015年03月，荣获《2014-2015年度推动云计算行业发展 突出贡献单位奖》</li>
+                          <li>2015年03月，荣获“ChinaBang Awards 2015”《年度云服务/企业级应用初创公司》</li>
+                          <li>2015年03月，荣获“2015第10届TFC全球移动游戏大会” 《2014年度最佳游戏产业服务商奖》</li>
+                          <li>2015年03月，王军荣获《2014-2015年度云计算行业突出贡献人物奖》</li>
+                          <li>2015年01月，荣获《2014年度O2O最佳服务商 OSCA奖》</li>
+                          <li>2013年12月，服务平台类《最佳送水奖》</li>
+                          </ul>
+                    </div>
+                    <div class="honour-area">
+                        <div class="left-banner">
+                            <h3>Testin的成就</h3>
+                            <p>2012年－2017年</p>
+                            <img src="images/logo_3.png">
+                        </div>
+                        <ul>
+                          <li>2017年06月，中国合格评定《国家认可委员会实验室认可证书》（简称：CNAS证书）</li>
+                          <li>2017年04月，成为《中国移动计算联盟理事会员》</li>
+                          <li>2016年11月，成为《广东省移动互联网应用安全发展联盟“首批加盟单位”》</li>
+                          <li>2015年12月，正式成为HTML5开发者服务联盟成员</li>
+                          <li>2015年10月，成为IDG安卓全球开发者大会官方指定的测试平台</li>
+                          <li>2015年10月，与阿里云、触控科技、友盟等14家企业联合建立中国游戏生态联盟</li>
+                          <li>2015年07月，Testin平台累计测试移动应用达一亿次</li>
+                          <li>2013年05月，Testin平台累计测试数量达到1000万次</li>
+                          <li>2012年05月, Testin平台累计测试数量达到100万次</li>
+                         </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer  style="height:270px; width:100%;">
+    <div class="foot1" style="height: 210px;width: 1200px; margin: 0 auto;">
+         <ul >
+               <li style="float:left;"><p style="color:#fff; opacity:0.9; font-size:14px; line-height:28px;"><span style="font-size:20px;">联系我们：</span>
+                      <br>
+                      7*24小时客服电话：400-990-5577
+                      <br>
+                      邮箱：secconsult@testin.cn
+                      <br>
+                      公司总部：北京市朝阳区酒仙路52号东方科技园4号楼云测大厦
+               </p></li>
+               <li style="float:left;margin: 39px 0 0 -94px;"><img src="images/guanyu-21.png"></li>
+         </ul>
+    </div>
+    <div class="footer-content clearfix">
+        <div class="footer-l">
+            北京云聚信安科技有限公司 © 2011-2018
+京ICP证150088号
+        </div>
+        <div class="footer-r">
+            <p class="p2"><i class="iconfont"><img src="images/tel.png"></i>400-990-5577</p>
+            <p class="links">
+                <a href="https://www.testin.cn/business/about.htm">关于我们</a>
+                <a target="_blank" href="https://www.testin.cn/business/feedback.htm">问题反馈</a>
+                <a href="/business/partner.htm">合作伙伴</a>
+            </p>
+            <select class="selectpicker" onchange="change();">
+                <option selected>简体中文-Chinese</option>
+                <option>英文-English</option>
+            </select>
+        </div>
+    </div>
+    <div class="footer-content-768 clearfix">
+        <div class="footer-r">
+            <p class="beforeSaleTitle">售前咨询</p>
+            <p class="p2">400-990-5577</p>
+        </div>
+        <div class="footer-l">
+            北京云聚信安科技有限公司 © 2011-2018 京ICP证150088号
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="js/jquery.min.js"></script><!--切换  闪-->
+<script type="text/javascript" src="js/bootstrap.min.js"></script><!--切换-->
+<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="js/testin_1200.js" type="text/javascript"></script>
+<script src="js/jquery.cityselect.js"></script>
+<script src="js/layer/layer.js"></script>
+<script src="js/user_submit.js"></script>
+<script src="js/tabbarCollapse.js"></script>
+<script src="js/site.js"></script>
+<script>
+
+    $(document).ready(function(){
+        $(".video-box img").hide();
+        $(".video-box video").trigger('play');
+        tabbarCollapse.init();
+    });
+    $(function(){
+        $(".globalization-main .container").each(function(){
+            var dot = $(this);
+            var p_time = parseInt(Math.random()*3000);
+            setTimeout(function(){
+                dot.show();
+            },p_time);
+        });
+    });
+
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 0,
+        centeredSlides: true,
+        autoplay: 10000,
+        loop: true,
+        autoplayDisableOnInteraction: false
+    });
+
+
+</script>
+</body>
+</html>

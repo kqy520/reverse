@@ -1,0 +1,75 @@
+@media screen and (max-width: 769px){
+    #header {
+        background-image: url("../images/scan_ban_768.jpg");
+    }
+    .bannerText_btn {
+        display: none;
+    }
+    .android_proSup>div:last-child {
+        display: block;
+        width: 100% !important;
+    }
+    .ios_proSup .android_list ul li span {
+        width: 70%!important;
+    }
+    .ios_proSup .android_list ul li span p {
+        font-size: 16px;
+        font-family: MicrosoftYaHei-Bold;
+    }
+    .sacn_you {
+        height: auto;
+        background-size: 100% 100%;
+        background-image: url("../images/sacn_bj_768.jpg");
+    }
+    .sacn_you>div {
+        width: 100%;
+        height: auto;
+    }
+    .sacn_you>div ul li {
+        width: 100%;
+        height: auto;
+        padding: 0 25px;
+        box-sizing: border-box;
+    }
+    h3.sv_paragraph>span,
+    .sacn_you_min h3 span {
+        color: #FFF;
+    }
+    h3.sv_paragraph>span:after,
+    .sacn_you_min h3 span:after {
+        background: #FFF;
+    }
+    .ceshi_youshi .sv_paragraph > h3,
+    h3.sv_paragraph,
+    .sacn_you_min h3{
+        padding-top: 19px!important;
+        padding-bottom: 19px;
+    }
+    .sacn_you>div ul li i img {
+        padding-top: 0;
+        /*width: 82px;*/
+        /*height: 82px;*/
+    }
+    .sacn_you>div ul li p {
+        width: 100%;
+        text-align: left;
+        font-size: 12px;
+        font-family: MicrosoftYaHei;
+        margin-bottom: 50px;
+    }
+    .sacn_you>div ul li p span {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        font-family: MicrosoftYaHei;
+        line-height: 40px;
+        margin-top: 19px;
+    }
+    br {
+        display: none;
+    }
+    .sacn_you>div ul li i img:first-child {
+        display: none;
+    }
+}

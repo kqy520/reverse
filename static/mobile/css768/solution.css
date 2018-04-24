@@ -1,0 +1,123 @@
+@media screen and (max-width: 769px){
+    #header {
+        background-image: url("../images/jiejue_ban_768.jpg");
+    }
+    #move_nav_4 {
+        display: none;
+    }
+    #index_mid1 {
+        height: auto!important;
+    }
+    #tab .tabList1 {
+        display: none;
+    }
+    #tab .tabCon1.clearfix div,
+    #tab .tabCon1.clearfix h3 {
+        position: static;
+        opacity: 1;
+    }
+    #tab .tabCon1.clearfix div h2 img{
+        display: none;
+    }
+    #tab .tabCon1.clearfix div ul {
+        width: 100%;
+        height: auto;
+    }
+    .typeTitles {
+        display: block;
+        margin-top: 14px;
+        text-align: center;
+        border-bottom: 1px solid #000;
+    }
+    .typeTitles p,
+    .typeTitles i{
+        display: inline-block;
+        font-size: 16px;
+        line-height: 52px;
+        height: 52px;
+        vertical-align: top;
+    }
+    .typeTitles p {
+        margin-left: 6px;
+    }
+    .typeTitles i img {
+        vertical-align: middle;
+        width: 25px;
+        height: 25px;
+    }
+    .spe_title {
+        display: block;
+    }
+    #tab .tabCon1 div ul .jiejue_tu {
+        width: 100%;
+    }
+    #tab .tabCon1 div ul .jiejue_tu img {
+        width: 100%;
+    }
+    #tab .tabCon1.clearfix div h2 {
+        width: 100%;
+        height: auto;
+        margin-top: 25px;
+    }
+    #tab .tabCon1.clearfix div h5 {
+        margin-top: 23px;
+        font-size: 12px;
+        color: #282828;
+        font-family: MicrosoftYaHei;
+        padding: 0 52px;
+        line-height: 30px;
+    }
+    #tab .tabCon1.clearfix div ul .jiejue_tu {
+        float: none;
+        margin-top: 0;
+        padding: 0 61px;
+        box-sizing: border-box;
+    }
+    #tab .tabCon1.clearfix div ul .jiejue_zi {
+        width: 100%;
+        float: none;
+        margin-top: 41px;
+        padding-left: 26px;
+        padding-right: 17px;
+        box-sizing: border-box;
+    }
+    #tab .tabCon1.clearfix div ul .jiejue_zi .lan {
+        font-size: 16px;
+    }
+    #tab .tabCon1.clearfix div ul .jiejue_zi p {
+        font-size: 12px;
+    }
+    #tab .tabCon1.clearfix div ul .jiejue_zi .hui {
+        font-size: 14px;
+    }
+    #tab .tabCon1.clearfix div ul .jiejue_zi p {
+        margin-bottom: 0;
+    }
+    #tab .tabCon1.clearfix div ul .jiejue_zi .hui,
+    #tab .tabCon1.clearfix div ul .jiejue_zi .lan {
+        margin-top: 20px;
+    }
+    #tab .tabCon1 div ul .jiejue_zi p:nth-child(7),
+    #tab .tabCon1 div ul .jiejue_zi p:nth-child(8),
+    #tab .tabCon1 div ul .jiejue_zi p:nth-child(9),
+    #tab .tabCon1 div ul .jiejue_zi p:nth-child(10),
+    #tab .tabCon1 div ul .jiejue_zi p:nth-child(11),
+    #tab .tabCon1 div ul .jiejue_zi p:nth-child(12),
+    #tab .tabCon1 div ul .jiejue_zi p:nth-child(13),
+    #tab .tabCon1 div ul .jiejue_zi p:nth-child(14){
+        display: none;
+    }
+    #tab .tabCon1.clearfix {
+        margin-bottom: 60px;
+    }
+    #header_tips .largeTitle_28 {
+        font-size: 28px;
+    }
+    #header_tips>div {
+        display: block;
+        width: 100%;
+        padding-left: 33px;
+        box-sizing: border-box;
+        padding-top: 213px;
+    }
+}

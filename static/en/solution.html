@@ -1,0 +1,734 @@
+<!doctype html>
+<html>
+
+<head>
+    <script>(window.localStorage.setItem('I18N-UI-LANG', 'en-US'), typeof navigator !='undefined' && /(Android|iPhone|Windows Phone|UC|Kindle)/.test(navigator.userAgent) && (window.location.href = '/mobile/en'));</script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta charset="utf-8">
+  <title>【Testin Security】- Your trusted advisor in Security</title>
+  <meta name="keywords" content="Testin Security,Mobile application Security Testing,Mobile application Security Monitoring,Mobile app Security Assessment / Scanning,iOS Security Scanning (Services),Mobile application Penetration Testing (Services),Mobile application Risks,Mobile application Security,Android Mobile Application Security,iOS Mobile Application Security,Mobile Application Protection – Android App Shielding,Mobile Application Protection – iOS App Shielding,Application Shielding,IPA Shielding,App Shielding,Application Encryption,Mobile Application Encryption,Mobile Application Protection,Mobile Application Anti Tampering,Mobile Application Anti Decompiling,Protect your Application from Decompiling,Phishing Monitoring,Channel Monitoring,Piracy Protection &amp;  Monitoring,Source Code Security,Source Code Review / Source Code Auditing,Security Consulting" />
+  <meta name="description" content="Testin Security is committed and strives to provide the highest-level of all-in-one services and comprehensive mobile application security services. We are dedicated to providing the best quality, value and services to meet our customers’ needs and expectations at reasonable and fair prices. We strive to provide an excellent service in terms of quality of work, timely delivery, professional behavior, customer service and value for money. Providing 24x7 customers support services at anytime, anywhere delivered by team of technically skilled and experienced personnel. Our core business including Mobile App Penetration Testing/Security Code Review/Mobile Application Shielding/Host Protection/Mobile Application Security Advisory Services. Our clients in different fields of industry among Corporate &amp;  Government, Technology (ICT) Carriers, IT/Telecom, Finance/Insurance, Healthcare, Travel/Tourism, Automobile, iOT, Gaming and etc." />
+  <link rel="stylesheet" href="css/public.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/childpages.css" />
+  <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="js/newgw.js"></script>
+  <style>
+    #tab .tabList1 {
+      border-bottom: 1px solid #000;
+      width: 100%;
+      height: 41px;
+    }
+
+    #tab .tabList1 ul {
+      width: 1200px;
+      margin: 0 auto;
+    }
+
+    #tab .tabList1 ul li {
+      float: left;
+      width: 200px;
+      height: 65px;
+      line-height: 15px;
+      font-size: 16px;
+      color: #000;
+      text-align: center;
+      position: relative;
+      cursor: pointer;
+    }
+
+    #tab .tabList1 ul li p {
+      float: left;
+      height: 65px;
+      line-height: 15px;
+    }
+
+    #tab .tabList1 ul li i {
+      float: left;
+      margin: -9px 4px 0 50px;
+    }
+
+    #tab .tabCon1 {
+      border-top: none;
+      margin: 0 auto;
+    }
+
+    #tab .tabCon1 div {
+      width: 100%;
+      position: absolute;
+      opacity: 0;
+      filter: alpha(opacity=0);
+    }
+
+    #tab .tabList1 li.cur {
+      color: #2b78ff;
+      background: url(images/di.png) no-repeat bottom;
+      height: 42px;
+    }
+
+    #tab .tabCon1 div.cur {
+      opacity: 1;
+      filter: alpha(opacity=100);
+    }
+
+    #tab .tabCon1 div h2 {
+      /*margin:0 auto; width:420px; */
+      text-align: center;
+      height: 60px;
+      margin-top: 55px;
+    }
+
+    #tab .tabCon1 div h5 {
+      font-size: 22px;
+      color: #282828;
+      text-align: center;
+      font-weight: 100;
+      margin: 70px auto;
+      width: 90%;
+    }
+
+    #tab .tabCon1 div ul {
+      width: 1200px;
+      margin: 0 auto;
+      margin-top: 40px;
+    }
+
+    #tab .tabCon1 div ul li {
+      float: left;
+    }
+
+    #tab .tabCon1 div ul .jiejue_tu {
+      float: left;
+      margin-top: 80px;
+    }
+
+    #tab .tabCon1 div ul .jiejue_zi {
+      width: 640px;
+      float: right;
+      margin-top: 50px;
+    }
+
+    #tab .tabCon1 div ul .jiejue_zi p {
+      font-size: 14px;
+      color: #282828;
+      line-height: 30px;
+      margin-bottom: 10px;
+    }
+
+    #tab .tabCon1 div ul .jiejue_zi .lan {
+      font-size: 20px;
+      font-weight: bold;
+      color: #2345ff;
+    }
+
+    #tab .tabCon1 div ul .jiejue_zi .hui {
+      font-size: 14px;
+      font-weight: bold;
+      color: #282828;
+    }
+
+    .jiejuefangan h3 {
+      margin: 0 auto;
+      width: 500px;
+      margin-bottom: 40px;
+    }
+
+    .jiejuefangan .esdk_form {
+      width: 880px;
+      margin: 0 auto;
+    }
+
+  </style>
+
+</head>
+
+<body style="background-color:#ffffff;">
+
+  <!-- 头部 -->
+  <div id="header" class="jiejue_header">
+    <div class="header_box">
+      <div style="width: 1200px;margin:0px auto;">
+        <div class="header_box_right fl">
+          <a class="header_icron" href="index.html">
+            <img src="images/logo.png" />
+          </a>
+        </div>
+
+        <div class="header_box_left fl">
+          <ul class="header_nav">
+            <li>
+              <a href="index.html">Home
+                <b></b>
+              </a>
+            </li>
+            <li class="header_box1">
+              <a href="javascript:;">Products
+                <b></b>
+              </a>
+              <div class="navs_box_bg1 nav_box_wrap" style="display:none;">
+                <div class="navs_box1 clearfix">
+                  <div class="navs_box_left">
+                    <ul>
+                      <li data-for="nav_aq" class="active">
+                        <a>Security Scanning</a>
+                        <i></i>
+                      </li>
+                      <li data-for="nav_hg">
+                        <a>Security Protecting</a>
+                        <i></i>
+                      </li>
+                      <li data-for="nav_gl">
+                        <a>Security Consulting</a>
+                        <i></i>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="navs_box_middle">
+                    <div id="nav_aq">
+                      <div class="navs_box_list">
+                        <div class="navs_box_item">
+                          <a href="pentest.html">
+                            <p class="navs_box_title">
+                              <span class="navs_box_style">Security Penetration Test</span>
+                            </p>
+                          </a>
+                        </div>
+                        <div class="navs_box_item">
+                          <a href="audit.html">
+                            <p class="navs_box_title">
+                              <span class="navs_box_style">Source Code Security Auditing</span>
+                            </p>
+                          </a>
+                        </div>
+                        <div class="navs_box_item">
+                          <a href="scan.html">
+                            <p class="navs_box_title">
+                              <span class="navs_box_style">App Security Scanning</span>
+                            </p>
+                          </a>
+                        </div>
+                        <div class="navs_box_item" style="height:80px;">
+                          <a href="cipher.html">
+                            <p class="navs_box_title">
+                              <span class="navs_box_style">Security Evaluation on Commercial Cryptography</span>
+                            </p>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="nav_hg" style="display:none;">
+                      <div class="navs_box_list">
+                        <div class="navs_box_item">
+                          <a href="reinforce.html">
+                            <p class="navs_box_title">
+                              <span class="navs_box_style">Mobile App Security Reinforcement</span>
+                            </p>
+                          </a>
+                        </div>
+                        <div class="navs_box_item">
+                          <a href="host.html">
+                            <p class="navs_box_title">
+                              <span class="navs_box_style">Host Computer Security Consolidation</span>
+                            </p>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div id="nav_gl" style="display:none;">
+                      <div class="navs_box_list">
+                        <div class="navs_box_item">
+                          <a href="advisory.html">
+                            <p class="navs_box_title">
+                              <span class="navs_box_style">Security Consulting</span>
+                            </p>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="nav_fwd" style="display:none;">
+                      <div class="navs_box_list">
+                        <div class="navs_box_item">
+
+                        </div>
+                        <div class="navs_box_item">
+
+                        </div>
+                        <div class="navs_box_item">
+
+                        </div>
+                      </div>
+                    </div>
+                    <div id="nav_dlp" style="display:none;">
+                      <div class="navs_box_list">
+                        <div class="navs_box_item">
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="navs_box_right">
+                    <a>
+                      <img src="images/boxright_ct.png">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="solution.html">Solutions
+                <b></b>
+              </a>
+            </li>
+            <li>
+              <a href="about.html">About Us
+                <b></b>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="header_oper-wrap fr">
+          <a class="regist" href="/web/account/login">
+            <i></i>Login</a>
+          <a class="login" href="/web/account/register">Register</a>
+          <a class="header_language" href="/">中文</a>
+        </div>
+      </div>
+    </div>
+    <div id="header_tips" class="sv_header_tips">
+    </div>
+  </div>
+
+
+  <div class="page_contain">
+    <div id="index_mid1" style="height:1750px;">
+      <div id="tab" style="margin-top:0;">
+        <div class="tabList1">
+          <ul>
+            <li class="cur">
+              <i>
+                <img src="images/jiejue_i1.png">
+              </i>
+              <p>Internet</p>
+            </li>
+            <li>
+              <i>
+                <img src="images/jiejue_i2.png">
+              </i>
+              <p>Financial</p>
+            </li>
+            <li>
+              <i>
+                <img src="images/jiejue_i3.png">
+              </i>
+              <p>Carriers</p>
+            </li>
+            <li>
+              <i>
+                <img src="images/jiejue_i4.png">
+              </i>
+              <p>Government</p>
+            </li>
+            <li>
+              <i>
+                <img src="images/jiejue_i5.png">
+              </i>
+              <p>IOT</p>
+            </li>
+            <li>
+              <i>
+                <img src="images/jiejue_i6.png">
+              </i>
+              <p>Game</p>
+            </li>
+          </ul>
+        </div>
+        <div class="tabCon1 clearfix">
+          <div class="cur clearfix">
+            <h2>
+              <img src="images/jiejue_tit1.png" width="622">
+            </h2>
+            <h5>online sales, catering, social, tourism, video, reading, express logistics and other Internet Life services</h5>
+            <ul>
+              <li class="jiejue_tu">
+                <img src="images/hulianwang-01.png">
+              </li>
+              <li class="jiejue_zi">
+                <p class="lan">Security risks</p>
+                <p>With the rapid popularization of internet in traditional industry, the O2O service mode of internet + life
+                  service provides more convenience for people's life. At the same time of high speed development, huge security
+                  risks also in quietly breeding.。
+                </p>
+                <p class="hui">For example:：</p>
+                <p>
+                  Fake apps by decompilation, repacking and placeing ads in apps.Identity theft &amp;  invasion of privacy,Hijacking,
+                  tampering and forgery of transaction data.
+                </p>
+                <p class="lan">Solutions</p>
+                <p>For each segment of the Internet, according to its characteristics, customized proprietary solutions for
+                  the e-commerce industry to provide a complete security testing and reinforcement solutions for the reading,
+                  video and other industries for resource encryption, data integrity protection, content tamper protection
+                  measures. Testin Security has a large number of successful cases of mobile internet customers, we can greatly
+                  enhance the security of the enterprise, improve developer benefits, reduce operating and maintenance costs.
+                </p>
+                <p>
+                  <b>Security testing services:</b> According to the relevant standards of the security industry, combine manual
+                  testing with tools. Fucus on the weaknesses of Android, IOS and Web system, and coduct in-depth analysis
+                  and mining technical on flaws or vulnerabilities, then generate detailed test report.</p>
+                <p>
+                  <b>Mobile applications security reinforcement services：</b>Provide the security reinforcement for Android,
+                  IOS applications. Avoid the threat such as be decompiled, debugging, the piracy, re-packing after the application
+                  distribution, which can reduce the threat of mobile application with efficiently and cheaply .</p>
+                <p>
+                  <b>Mobile application channel monitoring service:</b>Real-time monitoring of mobile applications in the mainstream
+                  application market. Prevent piracy and malicious behavior, and avoid the damage of financial and credibility.</p>
+                <p>
+                  <b>Compatibility test service:</b>Fully detect the compatibility of mobile applications on various models.
+                  Capture the problem including no response,UI exception, crash and other issues during the period of installation
+                  and uninstall.Generate the professional compatibility test report for enterprise.</p>
+                <p>
+                  <b>Data and resource protection:</b>Protect the security of application source code, resource files, configuration
+                  files, etc. Ensure the integrity and availability of data and files.</p>
+                <p>
+                  <b>Source code audit services:</b>Conduct white box test for the source code of enterprise, in-depth analysis
+                  of the entire source code. Find the threat and ccurate verification it. Propose rectification opinions
+                  for the security vulnerability points. Reject the insecurity system goes online.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="clearfix">
+            <h2>
+              <img src="images/jiejue_tit2.png" width="622">
+            </h2>
+            <h5> Banking, securities, insurance and other traditional financial services; Peer-to-peer, tripartite payment,Public
+              and otherInternet Financial Products</h5>
+            <ul>
+              <li class="jiejue_tu">
+                <img src="images/jinrong-01.png">
+              </li>
+              <li class="jiejue_zi">
+                <p class="lan">Security risks</p>
+                <p>With the rapid development of "Internet + Finance". Traditional financial services and products are being
+                  actively transferred to the internet, bringing more convenient and fast financial and payment experience
+                  to users. In such a fast Internet process, the introduction of a huge security risks.
+                </p>
+                <p class="hui">For example:：</p>
+                <p>Client funds transferred &amp;  stolen;Theft, sale, and exploitation of users' private information for accurate fraud;Hijacking,
+                  tampering and forgery of transaction data
+                </p>
+                <p class="lan">Solutions</p>
+                <p>The security risks arising from the high combination of traditional finance and Internet provide a security
+                  and reliable solution for mobile financial services and products such as banks, securities, p2p, etc.,
+                  guaranteeing the security of application systems.
+                </p>
+                <p>
+                  <b>Business security consulting:</b>To help enterprises upgrading of security management capabilities design,
+                  development, release, operation and other aspects.Ensure the legitimacy, reliability, extensibility and
+                  foresight of its business security system.</p>
+                <p>
+                  <b>Security training:</b>Help companies understand the common security issues and basic solutions in financial
+                  industry. Training enterprise staff security awareness, understand security development norms.</p>
+                <p>
+                  <b>Mobile application security detection:</b>Mining the vulnerabilities and security risks of mobile application,
+                  and verifying the authenticity and availability of each vulnerability and risk, providing detailed security
+                  test results and repair recommendations.</p>
+                <p>
+                  <b>Host security protection:</b>Provides comprehensive security protection for the threats faced by hosts
+                  on the network. Rapid positioning, isolation of threat attacks, timely cut off the victim's network system
+                  in the event of infection, and prevent further spread of the threat. </p>
+                <p>
+                  <b>Mobile applications security reinforcement services:</b> Provide the security reinforcement for Android,
+                  IOS applications. Avoid the threat such as be decompiled, debugging, the piracy, re-packing after the application
+                  distribution, which can reduce the threat of mobile application with efficiently and cheaply .</p>
+                <p>
+                  <b>Commercial password security evaluation:</b>Evaluate the validity, correctness and effectiveness of password
+                  used in network and information system, and make suggestions for them. Ensure the legitimacy and security
+                  in password usage.</p>
+                <p>
+                  <b>Mobile application channel monitoring service:</b>Real-time monitoring of mobile applications in the mainstream
+                  application market. Prevent piracy and malicious behavior, and avoid the damage of financial and credibility.</p>
+                <p>
+                  <b>Data and resource protection:</b>Protect the security of application source code, resource files, configuration
+                  files, etc. Ensure the integrity and availability of data and files.</p>
+                <p>
+                  <b>Legitimacy test:</b>According to the National Financial Supervision Unit security standards, industry security
+                  standards, financial industry security level protection standards and other standards. Ensure the security
+                  and legitimacy of the business.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="clearfix">
+            <h2>
+              <img src="images/jiejue_tit3.png" width="634">
+            </h2>
+            <h5>Mobile business Hall, billing channel, application distribution store, video, reading and living expenses and
+              other value-added services</h5>
+            <ul>
+              <li class="jiejue_tu">
+                <img src="images/yunyingsang-01.png">
+              </li>
+              <li class="jiejue_zi">
+                <p class="lan">Security risks</p>
+                <p>With the rapid development of informationization of operators, the network system composed of line network,
+                  core network, bearer network, service network, support network and transmission network has entered a perfect
+                  stage. Due to the strong privacy of operators and the large number of users, the security threats are also
+                  special and tendentious.
+                </p>
+                <p class="hui">For example:：</p>
+                <p>Theft, sale, and exploitation of users' private information for accurate fraud Extortion of target users through malicious
+                  bundling of viruses and trojans Decompiling app and cracking carriers' mobile application billing SDK
+
+                </p>
+                <p class="lan">Solutions</p>
+                <p>Through the application of reinforcement, penetration testing, security consulting and other means to improve
+                  the overall operationBusiness SystemSecurity, while focusing on privacy data leakage, Billing SDK security
+                  assessment, provide security measures to eliminate risk.
+                </p>
+                <p>
+                  <b>Mobile application security detection:</b>Mining the vulnerabilities and security risks of mobile application,
+                  and verifying the authenticity and availability of each vulnerability and risk, providing detailed security
+                  test results and repair recommendations.</p>
+                <p>
+                  <b>Compatibility test service:</b> Fully detect the compatibility of mobile applications on various models.
+                  Capture the problem including no response,UI exception, crash and other issues during the period of installation
+                  and uninstall.Generate the professional compatibility test report for enterprise .</p>
+                <p>
+                  <b>Mobile applications security reinforcement services:</b>Provide the security reinforcement for Android,
+                  IOS applications. Avoid the threat such as be decompiled, debugging, the piracy, re-packing after the application
+                  distribution, which can reduce the threat of mobile application with efficiently and cheaply .</p>
+                <p>
+                  <b>Billing protection:</b>:Consolidation carriers' billing SDK to prevent it from being debugged, tampered
+                  with and cracked, effectively reducing the security risk and avoiding economic loss.</p>
+                <p>
+                  <b>Mobile application channel monitoring service:</b>Real-time monitoring of mobile applications in the mainstream
+                  application market. Prevent piracy and malicious behavior. According to the needs of users remove the piracy
+                  applications from store.</p>
+                <p>
+                  <b>Commercial password security evaluation:</b>Evaluate the validity, correctness and effectiveness of password
+                  used in network and information system, and make suggestions for them. Ensure the legitimacy and security
+                  in password usage.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="clearfix">
+            <h2>
+              <img src="images/jiejue_tit4.png" width="795">
+            </h2>
+            <h5> Central and local government agencies, energy exploitation and management agencies, medical research and service
+              institutions, etc.</h5>
+            <ul>
+              <li class="jiejue_tu">
+                <img src="images/zhengqi-01.png">
+              </li>
+              <li class="jiejue_zi">
+                <p class="lan">Security risks</p>
+                <p>With the rapid and efficient office and management of the government agencies, the demand for the security
+                  of the system is becoming more and more intense with the development of the mobile informatization in the
+                  enterprises. The risks of this kind of government function system</p>
+                <p class="hui">For example:：</p>
+                <p>Tampering with apps to propagate illegal or inappropriate comments;Vulnerabilities in business systems lead
+                  to system intrusion and continuous contro;The application of local data leakage caused by the authentication
+                  information, system information and other sensitive information leakage;
+                </p>
+                <p class="lan">Solutions</p>
+                <p>Testin security team to assist enterprises and enterprises to strengthen risk prevention measures, improve
+                  safety management mechanism, improve staff safety awareness, combined with testin excellent security services,
+                  comprehensively protect the security of the assessed system.
+                </p>
+                <p>
+                  <b>Information security management system construction services:</b>Reference to international standards ISO27001,ISO27002,
+                  as well as domestic standards GB/T22080、GB/T22081. According to the complete management process of PDCA,
+                  help enterprises to build, authenticate and maintain a complete and effective information security management
+                  system (ISMS). Provide security for the operation of the business.</p>
+                <p>
+                  <b>Grade protection construction:</b>To help enterprises to understand and build information security level
+                  to meet the basic requirements of the information system, to ensure that it conforms to national and industry
+                  information security level of protection of regulatory requirements.</p>
+                <p>
+                  <b>Information security infrastructure construction:</b>Help enterprises to build a sound information security
+                  infrastructure, including firewalls, encryption machines, anti-virus equipment (hardware and software),
+                  electromagnetic interference shielding equipment, intrusion detection equipment, disaster recovery equipment,
+                  etc., to prevent unauthorized access to data or malicious system attacks.</p>
+                <p>
+                  <b>Security testing services:</b> According to the relevant standards of the security industry, combine manual
+                  testing with tools. Fucus on the weaknesses of Android, IOS and Web system, and coduct in-depth analysis
+                  and mining technical on flaws or vulnerabilities, then generate detailed test report.</p>
+                <p>
+                  <b>Mobile applications security reinforcement services: </b> Provide the security reinforcement for Android,
+                  IOS applications. Avoid the threat such as be decompiled, debugging, the piracy, re-packing after the application
+                  distribution, which can reduce the threat of mobile application with efficiently and cheaply .</p>
+                <p>
+                  <b>Host security protection:</b>Provides comprehensive security protection for the threats faced by hosts
+                  on the network. Rapid positioning, isolation of threat attacks, timely cut off the victim's network system
+                  in the event of infection, and prevent further spread of the threat.</p>
+                <p>
+                  <b>Commercial password security evaluation:</b>Evaluate the validity, correctness and effectiveness of password
+                  used in network and information system, and make suggestions for them. Ensure the legitimacy and security
+                  in password usage.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="clearfix">
+            <h2>
+              <img src="images/jiejue_tit5.png" width="508">
+            </h2>
+            <h5>Intelligent network of cars, smart home (home, home appliances), smart dress, intelligent city</h5>
+            <ul>
+              <li class="jiejue_tu">
+                <img src="images/IOT-01.png">
+              </li>
+              <li class="jiejue_zi">
+                <p class="lan">Security risks</p>
+                <p>With the development of IOT technology, a large number of access to the network equipment into all aspects
+                  of life, in the convenience and comfort into every corner of life, but also brought more serious security
+                  threats.
+                </p>
+                <p class="hui">For example:：</p>
+                <p>Tampering, forgery, management and operation of arbitrary intelligent devices for identity authentication
+                  and operation instructions;Key management, security-configured errors that result in secret key leaks,
+                  unauthorized access;Management system vulnerability caused by user privacy information, equipment information
+                  and other important information leakage.
+                </p>
+                <p class="lan">Solutions</p>
+                <p>The Testin security is based on the perceptual layer of the Internet of things, the basic structure of the
+                  network layer and the application layer, and the deep combination of cloud-tube-end of the IOT architecture,
+                  providing a complete set of advanced and effective security solutions.
+                </p>
+                <p>
+                  <b>Security advisory services:</b>Help customers to understand the status of security and risk, the use of
+                  appropriate control measures to build a comprehensive, effective and legal Information security management
+                  system, the overall promotion of enterprise information security management maturity, and security.</p>
+                <p>
+                  <b>Security advisory services</b>Focus on intelligent network for IoT industry. Conduct security test on intelligent
+                  hardware, cloud platform, mobile applications, and potential security risks in communication between them.
+                  Protect the security in cloud-tunnel-termal of ioT network.</p>
+                <p>
+                  <b>Security Reinforcement Services:</b>According to the result of the safety test, provide the security reinforcement
+                  service for the risk part, and provideSDKEncryption service, to strengthen the communication data to ensure
+                  the security of communication links such as transactions.</p>
+                <p>
+                  <b>Host security protection:</b>Provides comprehensive security protection for the threats faced by hosts
+                  on the network. Rapid positioning, isolation of threat attacks, timely cut off the victim's network system
+                  in the event of infection, and prevent further spread of the threat.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="clearfix">
+            <h2>
+              <img src="images/jiejue_tit6.png" width="420">
+            </h2>
+            <h5>mobile games, web games, PC games</h5>
+            <ul>
+              <li class="jiejue_tu">
+                <img src="images/youxi-01.png">
+              </li>
+              <li class="jiejue_zi">
+                <p class="lan">Security risks</p>
+                <p>The game industry's high investment, high returns, not only to the game manufacturers to bring a huge profit,
+                  but also become a hacker attack, black ash production of the hardest hit. Security risks abound.
+                </p>
+                <p class="hui">For example:：</p>
+                <p>Game plug on gold coins, attributes of malicious modification, resulting in shortened game life cycle, user
+                  churn; Malicious extortion by embedding malicious code in a way that causes a disorderly deduction; Through
+                  the reverse compilation of internal purchase business, resulting in loss of funds.
+                </p>
+                <p class="lan">Solutions</p>
+                <p>Testin security for the game industry plug-in cheating Pain Point, provides a set of security penetration
+                  testing, mobile applications security reinforcement, host security, security consulting services such as
+                  a complete package of security solutions
+                </p>
+                <p>
+                  <b>Security Penetration Test</b>Active mining game business security vulnerabilities, including communication
+                  protocol security, script logic security, memory data security, static resource security, local data security.
+                  Expose game potential security risks ahead of time and provide recommendations for risk resolution.</p>
+                <p>
+                  <b>Mobile applications security reinforcement services: </b>Provide the security reinforcement for Android,
+                  IOS applications. Avoid the threat such as be decompiled, debugging, the piracy, re-packing after the application
+                  distribution, which can reduce the threat of mobile application with efficiently and cheaply .</p>
+                <p>
+                  <b>Host security protection:</b>Provides comprehensive security protection for the threats faced by hosts
+                  on the network. Rapid positioning, isolation of threat attacks, timely cut off the victim's network system
+                  in the event of infection, and prevent further spread of the threat.</p>
+                <p>
+                  <b>Compatibility test service:</b>Fully detect the compatibility of mobile applications on various models.
+                  Capture the problem including no response,UI exception, crash and other issues during the period of installation
+                  and uninstall.Generate the professional compatibility test report for enterprise .</p>
+                <p>
+                  <b>Mobile application compression services</b>Help game developers to compress the package without impacting
+                  the user experience. It can reduce game operating costs and increase the number of game download.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="move_nav_4">
+      <div class="jiejuefangan">
+        <h3 scrollTargetName="nav_4" class="typetxt">
+          <img src="images/jiejue_title4.png">
+        </h3>
+        <div class="esdk_form">
+          <form class="myform">
+            <div>
+              <span class="items_title">Name</span>
+              <input id="username" type="text" required min-length="2" maxlength="20" placeholder="Please enter your name" />
+              <p class="error-msg" id="error-username"></p>
+            </div>
+            <div>
+              <span class="items_title">Email</span>
+              <input id="email" type="email" required min-length="2" maxlength="50" placeholder="Please enter email address" />
+              <p class="error-msg" id="error-email"></p>
+            </div>
+            <div>
+              <span class="items_title">Telephone</span>
+              <input id="phone" type="text" required min-length="4" maxlength="15" placeholder="Please enter phone number" />
+              <p class="error-msg" id="error-phone"></p>
+            </div>
+            <div>
+              <span class="items_title">Verification Code</span>
+              <div style="vertical-align: top;">
+                <input id="validatecode" type="text" class="Verification" required min-length="6" maxlength="6" placeholder="Please enter verification code" />
+                <span class="codeImg_span">
+                  <img id="random_img" class="Verification-img">
+                </span>
+                <a class="refresh">Refresh</a>
+              </div>
+              <p class="error-msg" id="error-validatecode"></p>
+            </div>
+            <div class="page_bottom_btn">
+              <button type="button" class="apply-form-submt">Submit</button>
+              <p class="success-msg" id="form-msg"></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-content clearfix">
+      <div class="footer-l">
+        Testin SEA Sdn Bhd
+      </div>
+      <div class="footer-r">
+        <p class="p2">secconsult@testin.net</p>
+        <p class="links">
+          <a href="about.html">About Us</a>
+          <a target="_blank" href="//www.testin.net/business/feedback.htm">Feedback</a>
+          <a target="_blank" href="//www.testin.net/business/partner.htm">Partners</a>
+        </p>
+        <select class="selectpicker" onchange="changeLang(this);">
+          <option value="zh-CN">简体中文-Chinese</option>
+          <option value="en-US" selected>英文-English</option>
+        </select>
+      </div>
+    </div>
+  </footer>
+  <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+  <script src="js/testin_nav.js" type="text/javascript"></script>
+  <script src="js/site.js"></script>
+  <script src="js/user_submit.js"></script>
+  <script src="js/solution.js"></script>
+</body>
+
+</html>
